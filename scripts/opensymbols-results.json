@@ -1,0 +1,818 @@
+[
+  {
+    "id": "bath",
+    "label": "Bath",
+    "category": "Activities",
+    "oldImage": "bath.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bath.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "computer-game",
+    "label": "Computer Game",
+    "category": "Activities",
+    "oldImage": "computer_game.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/play computer games.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "dance",
+    "label": "Dance",
+    "category": "Activities",
+    "oldImage": "dance.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/dance.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "draw",
+    "label": "Draw",
+    "category": "Activities",
+    "oldImage": "draw.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to draw_2.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "eat",
+    "label": "Eat",
+    "category": "Activities",
+    "oldImage": "eat.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to eat_1.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "music",
+    "label": "Music",
+    "category": "Activities",
+    "oldImage": "music.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/music.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "outside",
+    "label": "Outside",
+    "category": "Activities",
+    "oldImage": "outside.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/outside.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "play",
+    "label": "Play",
+    "category": "Activities",
+    "oldImage": "play.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to play volleyball.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "playground",
+    "label": "Playground",
+    "category": "Activities",
+    "oldImage": "playground.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/park.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "read",
+    "label": "Read",
+    "category": "Activities",
+    "oldImage": "read.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to read_1.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "sleep",
+    "label": "Sleep",
+    "category": "Activities",
+    "oldImage": "sleep.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to sleep_2.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "swim",
+    "label": "Swim",
+    "category": "Activities",
+    "oldImage": "swim.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to swim_1.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "tablet",
+    "label": "Tablet",
+    "category": "Activities",
+    "oldImage": "tablet.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/tablet.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "video-games",
+    "label": "Video Games",
+    "category": "Activities",
+    "oldImage": "video_games.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/video game.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "walk",
+    "label": "Walk",
+    "category": "Activities",
+    "oldImage": "walk.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/walk.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "watch-tv",
+    "label": "Watch Tv",
+    "category": "Activities",
+    "oldImage": "watch_TV.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/watch TV.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "apple-juice",
+    "label": "Apple Juice",
+    "category": "Drinks",
+    "oldImage": "apple_juice.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/apple juice.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "hot-chocolate",
+    "label": "Hot Chocolate",
+    "category": "Drinks",
+    "oldImage": "hot_chocolate.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hot chocolate.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "lemonade",
+    "label": "Lemonade",
+    "category": "Drinks",
+    "oldImage": "lemonade.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/lemonade.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "milk",
+    "label": "Milk",
+    "category": "Drinks",
+    "oldImage": "milk.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/milk.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "milkshake",
+    "label": "Milkshake",
+    "category": "Drinks",
+    "oldImage": "milkshake.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/milkshake.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "orange-juice",
+    "label": "Orange Juice",
+    "category": "Drinks",
+    "oldImage": "orange_juice.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/orange juice.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "water",
+    "label": "Water",
+    "category": "Drinks",
+    "oldImage": "water.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/glass of water.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "angry",
+    "label": "Angry",
+    "category": "Feelings",
+    "oldImage": "angry.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/angry.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "confused",
+    "label": "Confused",
+    "category": "Feelings",
+    "oldImage": "confused.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/confused.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "excited",
+    "label": "Excited",
+    "category": "Feelings",
+    "oldImage": "excited.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/happy_3.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "happy",
+    "label": "Happy",
+    "category": "Feelings",
+    "oldImage": "happy.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/happy.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "hungry",
+    "label": "Hungry",
+    "category": "Feelings",
+    "oldImage": "hungry.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hungry.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "sad",
+    "label": "Sad",
+    "category": "Feelings",
+    "oldImage": "sad.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sad.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "scared",
+    "label": "Scared",
+    "category": "Feelings",
+    "oldImage": "scared.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/scared.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "sick",
+    "label": "Sick",
+    "category": "Feelings",
+    "oldImage": "sick.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/become ill_2.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "thirsty",
+    "label": "Thirsty",
+    "category": "Feelings",
+    "oldImage": "thirsty.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/thirsty.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "tired",
+    "label": "Tired",
+    "category": "Feelings",
+    "oldImage": "tired.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/tired.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "apple",
+    "label": "Apple",
+    "category": "Food",
+    "oldImage": "apple.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/apple.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "banana",
+    "label": "Banana",
+    "category": "Food",
+    "oldImage": "banana.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/banana_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "broccoli",
+    "label": "Broccoli",
+    "category": "Food",
+    "oldImage": "broccoli.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/broccoli.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "cake",
+    "label": "Cake",
+    "category": "Food",
+    "oldImage": "cake.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/cake.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "carrot",
+    "label": "Carrot",
+    "category": "Food",
+    "oldImage": "carrot.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/carrot.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "cereal",
+    "label": "Cereal",
+    "category": "Food",
+    "oldImage": "cereal.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/cereals.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "cheese",
+    "label": "Cheese",
+    "category": "Food",
+    "oldImage": "cheese.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/cheese.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "chicken-nuggets",
+    "label": "Chicken Nuggets",
+    "category": "Food",
+    "oldImage": "chicken_nuggets.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/croquette.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "chips",
+    "label": "Chips",
+    "category": "Food",
+    "oldImage": "chips.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bag of chips.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "chocolate",
+    "label": "Chocolate",
+    "category": "Food",
+    "oldImage": "chocolate.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/chocolate.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "cookie",
+    "label": "Cookie",
+    "category": "Food",
+    "oldImage": "cookie.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/biscuit.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "egg",
+    "label": "Egg",
+    "category": "Food",
+    "oldImage": "egg.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/egg.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "fish-sticks",
+    "label": "Fish Sticks",
+    "category": "Food",
+    "oldImage": "fish_sticks.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/fried fish in batter_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "fries",
+    "label": "Fries",
+    "category": "Food",
+    "oldImage": "fries.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/fried potatoes (crisps)_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "grapes",
+    "label": "Grapes",
+    "category": "Food",
+    "oldImage": "grapes.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/grapes.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "hamburger",
+    "label": "Hamburger",
+    "category": "Food",
+    "oldImage": "hamburger.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hamburger.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "hot-dog",
+    "label": "Hot Dog",
+    "category": "Food",
+    "oldImage": "hot_dog.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hot dog.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "ice-cream",
+    "label": "Ice Cream",
+    "category": "Food",
+    "oldImage": "ice_cream.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/ice-cream.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "mac-and-cheese",
+    "label": "Mac And Cheese",
+    "category": "Food",
+    "oldImage": "mac_and_cheese.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/macaroni.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "orange",
+    "label": "Orange",
+    "category": "Food",
+    "oldImage": "orange.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/orange.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "pancakes",
+    "label": "Pancakes",
+    "category": "Food",
+    "oldImage": "pancakes.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sponge cake_4.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "pizza",
+    "label": "Pizza",
+    "category": "Food",
+    "oldImage": "pizza.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/pizza.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "sandwich",
+    "label": "Sandwich",
+    "category": "Food",
+    "oldImage": "sandwich.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sandwich.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "soup",
+    "label": "Soup",
+    "category": "Food",
+    "oldImage": "soup.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/soup_4.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "spaghetti",
+    "label": "Spaghetti",
+    "category": "Food",
+    "oldImage": "spaghetti.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/spaghetti.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "strawberry",
+    "label": "Strawberry",
+    "category": "Food",
+    "oldImage": "strawberry.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/strawberry.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "toast",
+    "label": "Toast",
+    "category": "Food",
+    "oldImage": "toast.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/toast.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "watermelon",
+    "label": "Watermelon",
+    "category": "Food",
+    "oldImage": "watermelon.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/watermelon.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "yogurt",
+    "label": "Yogurt",
+    "category": "Food",
+    "oldImage": "yogurt.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/yogurt.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "baby",
+    "label": "Baby",
+    "category": "People",
+    "oldImage": "baby.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/baby.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "brother",
+    "label": "Brother",
+    "category": "People",
+    "oldImage": "brother.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/brother.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "dad",
+    "label": "Dad",
+    "category": "People",
+    "oldImage": "dad.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/dad.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "family",
+    "label": "Family",
+    "category": "People",
+    "oldImage": "family.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/family.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "friend",
+    "label": "Friend",
+    "category": "People",
+    "oldImage": "friend.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/friend_2.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "grandma",
+    "label": "Grandma",
+    "category": "People",
+    "oldImage": "grandma.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/grandma.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "grandpa",
+    "label": "Grandpa",
+    "category": "People",
+    "oldImage": "grandpa.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/grandpa.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "mom",
+    "label": "Mom",
+    "category": "People",
+    "oldImage": "mom.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/mother.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "sister",
+    "label": "Sister",
+    "category": "People",
+    "oldImage": "sister.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sister.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "teacher",
+    "label": "Teacher",
+    "category": "People",
+    "oldImage": "teacher.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/teacher (female).png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "backyard",
+    "label": "Backyard",
+    "category": "Places",
+    "oldImage": "backyard.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/swing_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "bathroom",
+    "label": "Bathroom",
+    "category": "Places",
+    "oldImage": "bathroom.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/toilet bowl.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "bedroom",
+    "label": "Bedroom",
+    "category": "Places",
+    "oldImage": "bedroom.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bedroom_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "car",
+    "label": "Car",
+    "category": "Places",
+    "oldImage": "car.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/car.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "doctor",
+    "label": "Doctor",
+    "category": "Places",
+    "oldImage": "doctor.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/doctor_3.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "home",
+    "label": "Home",
+    "category": "Places",
+    "oldImage": "home.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/home.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "kitchen",
+    "label": "Kitchen",
+    "category": "Places",
+    "oldImage": "kitchen.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/kitchen.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "park",
+    "label": "Park",
+    "category": "Places",
+    "oldImage": "park.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/park.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "restaurant",
+    "label": "Restaurant",
+    "category": "Places",
+    "oldImage": "restaurant.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/restaurant.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "school",
+    "label": "School",
+    "category": "Places",
+    "oldImage": "school.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/high school - secondary school.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "store",
+    "label": "Store",
+    "category": "Places",
+    "oldImage": "store.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/notions store.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "all-done",
+    "label": "All Done",
+    "category": "Responses",
+    "oldImage": "all_done.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to finish_2.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "help",
+    "label": "Help",
+    "category": "Responses",
+    "oldImage": "help.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/help_4.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "more",
+    "label": "More",
+    "category": "Responses",
+    "oldImage": "more.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/more_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "no",
+    "label": "No",
+    "category": "Responses",
+    "oldImage": "no.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/no entry.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "wait",
+    "label": "Wait",
+    "category": "Responses",
+    "oldImage": "wait.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/wait.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "yes",
+    "label": "Yes",
+    "category": "Responses",
+    "oldImage": "yes.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/yes_2.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "ball",
+    "label": "Ball",
+    "category": "Toys",
+    "oldImage": "ball.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/basket ball.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "blocks",
+    "label": "Blocks",
+    "category": "Toys",
+    "oldImage": "blocks.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/blocks.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "bubbles",
+    "label": "Bubbles",
+    "category": "Toys",
+    "oldImage": "bubbles.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bubbles.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "dinosaur",
+    "label": "Dinosaur",
+    "category": "Toys",
+    "oldImage": "dinosaur.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/dinosaur_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "doll",
+    "label": "Doll",
+    "category": "Toys",
+    "oldImage": "doll.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/doll.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "kite",
+    "label": "Kite",
+    "category": "Toys",
+    "oldImage": "kite.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/comet.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "lego",
+    "label": "Lego",
+    "category": "Toys",
+    "oldImage": "lego.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/blocks_2.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "playdough",
+    "label": "Playdough",
+    "category": "Toys",
+    "oldImage": "playdough.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to squash.png.varianted-skin.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "puppet",
+    "label": "Puppet",
+    "category": "Toys",
+    "oldImage": "puppet.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/pupils_1.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "puzzle",
+    "label": "Puzzle",
+    "category": "Toys",
+    "oldImage": "puzzle.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/puzzle.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "teddy-bear",
+    "label": "Teddy Bear",
+    "category": "Toys",
+    "oldImage": "teddy_bear.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/teddy bear.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "toy-car",
+    "label": "Toy Car",
+    "category": "Toys",
+    "oldImage": "toy_car.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/toy car.png",
+    "repo": "arasaac"
+  },
+  {
+    "id": "train",
+    "label": "Train",
+    "category": "Toys",
+    "oldImage": "train.svg",
+    "newImage": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/train.png",
+    "repo": "arasaac"
+  }
+]

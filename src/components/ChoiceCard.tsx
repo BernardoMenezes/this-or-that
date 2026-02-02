@@ -14,7 +14,7 @@ import { cn } from '@/lib/cn';
 interface ChoiceCardProps {
   label: string;
   imageUrl: string;
-  color: 'teal' | 'coral';
+  color: 'teal' | 'coral' | 'purple' | 'amber';
 }
 
 const AnimatedPressable = Animated.createAnimatedComponent(Pressable);
@@ -50,8 +50,14 @@ export function ChoiceCard({ label, imageUrl, color }: ChoiceCardProps) {
     borderWidth: borderWidth.value,
   }));
 
-  const borderColor = color === 'teal' ? '#14B8A6' : '#F97316';
-  const bgColor = color === 'teal' ? '#CCFBF1' : '#FED7AA';
+  const colorMap = {
+    teal: { border: '#14B8A6', bg: '#CCFBF1', text: 'text-teal-800' },
+    coral: { border: '#F97316', bg: '#FED7AA', text: 'text-orange-800' },
+    purple: { border: '#8B5CF6', bg: '#DDD6FE', text: 'text-purple-800' },
+    amber: { border: '#F59E0B', bg: '#FDE68A', text: 'text-amber-800' },
+  };
+
+  const { border: borderColor, bg: bgColor, text: textColorClass } = colorMap[color];
 
   return (
     <AnimatedPressable
@@ -72,9 +78,9 @@ export function ChoiceCard({ label, imageUrl, color }: ChoiceCardProps) {
         },
       ]}
     >
-      <View className="flex-1 items-center justify-center p-4">
+      <View className="flex-1 items-center justify-center p-4 pb-5">
         <View
-          className="items-center justify-center rounded-3xl mb-4"
+          className="items-center justify-center rounded-3xl mb-3"
           style={{ width: 200, height: 200, backgroundColor: '#FFFFFF' }}
         >
           <Image
@@ -86,10 +92,13 @@ export function ChoiceCard({ label, imageUrl, color }: ChoiceCardProps) {
         </View>
         <Text
           className={cn(
-            'text-4xl font-bold text-center',
-            color === 'teal' ? 'text-teal-800' : 'text-orange-800'
+            'text-3xl font-bold text-center',
+            textColorClass
           )}
-          style={{ letterSpacing: 1 }}
+          style={{ letterSpacing: 1, lineHeight: 38 }}
+          numberOfLines={2}
+          adjustsFontSizeToFit
+          minimumFontScale={0.7}
         >
           {label}
         </Text>

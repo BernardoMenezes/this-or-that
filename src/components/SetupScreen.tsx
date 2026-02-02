@@ -4,131 +4,75 @@ import { Image } from 'expo-image';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
-import { ArrowRight, ImageIcon, Info } from 'lucide-react-native';
+import { ArrowRight, ImageIcon, Settings } from 'lucide-react-native';
 import * as Haptics from 'expo-haptics';
 import { useChoiceStore, type Choice } from '@/lib/choice-store';
 import { useImageSelectionStore } from '@/lib/image-selection-store';
+import { useSettingsStore } from '@/lib/settings-store';
 import { cn } from '@/lib/cn';
-
-interface ChoiceInputProps {
-  label: string;
-  imageUrl: string;
-  onChoiceChange: (url: string, label: string) => void;
-  color: 'teal' | 'coral';
-  choiceNumber: number;
-}
-
-function ChoiceInput({ label, imageUrl, onChoiceChange, color, choiceNumber }: ChoiceInputProps) {
-  const router = useRouter();
-  const selection = useImageSelectionStore((s) => s.selection);
-  const clearSelection = useImageSelectionStore((s) => s.clearSelection);
-
-  const borderColor = color === 'teal' ? '#14B8A6' : '#F97316';
-  const bgColor = color === 'teal' ? '#F0FDFA' : '#FFF7ED';
-  const textColor = color === 'teal' ? '#115E59' : '#9A3412';
-
-  // Listen for selection changes when returning from select-image page
-  useEffect(() => {
-    if (selection) {
-      onChoiceChange(selection.url, selection.label);
-      clearSelection();
-    }
-  }, [selection, onChoiceChange, clearSelection]);
-
-  const handlePress = () => {
-    Haptics.selectionAsync();
-    router.push({
-      pathname: '/select-image',
-      params: { color, choiceNumber: String(choiceNumber) }
-    });
-  };
-
-  return (
-    <Pressable
-      onPress={handlePress}
-      className="rounded-3xl p-4 mb-4"
-      style={{ backgroundColor: bgColor, borderWidth: 2, borderColor }}
-    >
-      <Text className="text-lg font-semibold mb-3" style={{ color: textColor }}>
-        Choice {choiceNumber}
-      </Text>
-
-      {/* Display current label */}
-      {label ? (
-        <Text className="text-xl font-bold text-center mb-3" style={{ color: textColor }}>
-          {label}
-        </Text>
-      ) : null}
-
-      {/* Image Preview / Upload Button */}
-      {imageUrl ? (
-        <View
-          className="rounded-2xl overflow-hidden items-center justify-center"
-          style={{ height: 140, backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: '#E5E7EB' }}
-        >
-          <Image source={{ uri: imageUrl }} style={{ width: 110, height: 110 }} contentFit="contain" />
-        </View>
-      ) : (
-        <View
-          className="rounded-2xl items-center justify-center"
-          style={{ height: 140, backgroundColor: '#F3F4F6', borderWidth: 1, borderColor: '#E5E7EB', borderStyle: 'dashed' }}
-        >
-          <ImageIcon size={32} color="#9CA3AF" />
-          <Text className="text-gray-500 mt-2 font-medium">Tap to choose image</Text>
-        </View>
-      )}
-    </Pressable>
-  );
-}
 
 export function SetupScreen() {
   const router = useRouter();
-  const { choice1: savedChoice1, choice2: savedChoice2, setChoices } = useChoiceStore();
+  const numberOfChoices = useSettingsStore((s) => s.numberOfChoices);
+  const choice1 = useChoiceStore((s) => s.choice1);
+  const choice2 = useChoiceStore((s) => s.choice2);
+  const choice3 = useChoiceStore((s) => s.choice3);
+  const choice4 = useChoiceStore((s) => s.choice4);
+  const setChoice = useChoiceStore((s) => s.setChoice);
 
-  const [choice1, setChoice1] = useState<Choice>(savedChoice1);
-  const [choice2, setChoice2] = useState<Choice>(savedChoice2);
-  const [activeChoice, setActiveChoice] = useState<1 | 2 | null>(null);
+  const [localChoices, setLocalChoices] = useState<Choice[]>([choice1, choice2, choice3, choice4]);
+  const [activeChoice, setActiveChoice] = useState<number | null>(null);
 
   const selection = useImageSelectionStore((s) => s.selection);
   const clearSelection = useImageSelectionStore((s) => s.clearSelection);
 
+  // Sync local choices with store when number of choices changes
+  useEffect(() => {
+    setLocalChoices([choice1, choice2, choice3, choice4]);
+  }, [choice1, choice2, choice3, choice4]);
+
   // Handle selection when returning from image picker
   useEffect(() => {
-    if (selection && activeChoice) {
-      if (activeChoice === 1) {
-        setChoice1({ imageUrl: selection.url, label: selection.label });
-      } else {
-        setChoice2({ imageUrl: selection.url, label: selection.label });
-      }
+    if (selection && activeChoice !== null) {
+      const newChoices = [...localChoices];
+      newChoices[activeChoice - 1] = { imageUrl: selection.url, label: selection.label };
+      setLocalChoices(newChoices);
+      setChoice(activeChoice as 1 | 2 | 3 | 4, { imageUrl: selection.url, label: selection.label });
       clearSelection();
       setActiveChoice(null);
     }
-  }, [selection, activeChoice, clearSelection]);
+  }, [selection, activeChoice, clearSelection, localChoices, setChoice]);
 
-  const canContinue = choice1.label.trim() && choice1.imageUrl && choice2.label.trim() && choice2.imageUrl;
+  // Get the choices to display based on setting
+  const displayedChoices = localChoices.slice(0, numberOfChoices);
+
+  const canContinue = displayedChoices.every(
+    (choice) => choice.label.trim() && choice.imageUrl
+  );
 
   const handleContinue = async () => {
     if (!canContinue) return;
     await Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Medium);
-    setChoices(choice1, choice2);
     router.push('/choose');
   };
 
-  const handleChoice1Press = () => {
-    Haptics.selectionAsync();
-    setActiveChoice(1);
-    router.push({
-      pathname: '/select-image',
-      params: { color: 'teal', choiceNumber: '1' }
-    });
+  const getChoiceColors = (index: number) => {
+    const colors = [
+      { bg: '#F0FDFA', border: '#14B8A6', text: '#115E59', colorName: 'teal' },
+      { bg: '#FFF7ED', border: '#F97316', text: '#9A3412', colorName: 'coral' },
+      { bg: '#EDE9FE', border: '#8B5CF6', text: '#5B21B6', colorName: 'purple' },
+      { bg: '#FEF3C7', border: '#F59E0B', text: '#92400E', colorName: 'amber' },
+    ];
+    return colors[index] || colors[0];
   };
 
-  const handleChoice2Press = () => {
+  const handleChoicePress = (index: number) => {
     Haptics.selectionAsync();
-    setActiveChoice(2);
+    setActiveChoice(index);
+    const colorName = getChoiceColors(index - 1).colorName;
     router.push({
       pathname: '/select-image',
-      params: { color: 'coral', choiceNumber: '2' }
+      params: { color: colorName, choiceNumber: String(index) }
     });
   };
 
@@ -158,7 +102,7 @@ export function SetupScreen() {
                     }}
                     className="absolute right-0 p-2"
                   >
-                    <Info size={24} color="#64748B" />
+                    <Settings size={24} color="#64748B" />
                   </Pressable>
                 </View>
                 <Text className="text-base text-slate-500 text-center mt-2">
@@ -166,73 +110,46 @@ export function SetupScreen() {
                 </Text>
               </View>
 
-              {/* Choice 1 */}
-              <Pressable
-                onPress={handleChoice1Press}
-                className="rounded-3xl p-4 mb-4"
-                style={{ backgroundColor: '#F0FDFA', borderWidth: 2, borderColor: '#14B8A6' }}
-              >
-                <Text className="text-lg font-semibold mb-3" style={{ color: '#115E59' }}>
-                  Choice 1
-                </Text>
-
-                {choice1.label ? (
-                  <Text className="text-xl font-bold text-center mb-3" style={{ color: '#115E59' }}>
-                    {choice1.label}
-                  </Text>
-                ) : null}
-
-                {choice1.imageUrl ? (
-                  <View
-                    className="rounded-2xl overflow-hidden items-center justify-center"
-                    style={{ height: 140, backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: '#E5E7EB' }}
+              {/* Dynamic Choice Cards */}
+              {displayedChoices.map((choice, index) => {
+                const choiceNum = index + 1;
+                const colors = getChoiceColors(index);
+                return (
+                  <Pressable
+                    key={choiceNum}
+                    onPress={() => handleChoicePress(choiceNum)}
+                    className="rounded-3xl p-4 mb-4"
+                    style={{ backgroundColor: colors.bg, borderWidth: 2, borderColor: colors.border }}
                   >
-                    <Image source={{ uri: choice1.imageUrl }} style={{ width: 110, height: 110 }} contentFit="contain" />
-                  </View>
-                ) : (
-                  <View
-                    className="rounded-2xl items-center justify-center"
-                    style={{ height: 140, backgroundColor: '#F3F4F6', borderWidth: 1, borderColor: '#E5E7EB', borderStyle: 'dashed' }}
-                  >
-                    <ImageIcon size={32} color="#9CA3AF" />
-                    <Text className="text-gray-500 mt-2 font-medium">Tap to choose image</Text>
-                  </View>
-                )}
-              </Pressable>
+                    <Text className="text-lg font-semibold mb-3" style={{ color: colors.text }}>
+                      Choice {choiceNum}
+                    </Text>
 
-              {/* Choice 2 */}
-              <Pressable
-                onPress={handleChoice2Press}
-                className="rounded-3xl p-4 mb-4"
-                style={{ backgroundColor: '#FFF7ED', borderWidth: 2, borderColor: '#F97316' }}
-              >
-                <Text className="text-lg font-semibold mb-3" style={{ color: '#9A3412' }}>
-                  Choice 2
-                </Text>
+                    {choice.label ? (
+                      <Text className="text-xl font-bold text-center mb-3" style={{ color: colors.text }}>
+                        {choice.label}
+                      </Text>
+                    ) : null}
 
-                {choice2.label ? (
-                  <Text className="text-xl font-bold text-center mb-3" style={{ color: '#9A3412' }}>
-                    {choice2.label}
-                  </Text>
-                ) : null}
-
-                {choice2.imageUrl ? (
-                  <View
-                    className="rounded-2xl overflow-hidden items-center justify-center"
-                    style={{ height: 140, backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: '#E5E7EB' }}
-                  >
-                    <Image source={{ uri: choice2.imageUrl }} style={{ width: 110, height: 110 }} contentFit="contain" />
-                  </View>
-                ) : (
-                  <View
-                    className="rounded-2xl items-center justify-center"
-                    style={{ height: 140, backgroundColor: '#F3F4F6', borderWidth: 1, borderColor: '#E5E7EB', borderStyle: 'dashed' }}
-                  >
-                    <ImageIcon size={32} color="#9CA3AF" />
-                    <Text className="text-gray-500 mt-2 font-medium">Tap to choose image</Text>
-                  </View>
-                )}
-              </Pressable>
+                    {choice.imageUrl ? (
+                      <View
+                        className="rounded-2xl overflow-hidden items-center justify-center"
+                        style={{ height: 140, backgroundColor: '#FFFFFF', borderWidth: 1, borderColor: '#E5E7EB' }}
+                      >
+                        <Image source={{ uri: choice.imageUrl }} style={{ width: 110, height: 110 }} contentFit="contain" />
+                      </View>
+                    ) : (
+                      <View
+                        className="rounded-2xl items-center justify-center"
+                        style={{ height: 140, backgroundColor: '#F3F4F6', borderWidth: 1, borderColor: '#E5E7EB', borderStyle: 'dashed' }}
+                      >
+                        <ImageIcon size={32} color="#9CA3AF" />
+                        <Text className="text-gray-500 mt-2 font-medium">Tap to choose image</Text>
+                      </View>
+                    )}
+                  </Pressable>
+                );
+              })}
             </ScrollView>
 
             {/* Continue Button */}

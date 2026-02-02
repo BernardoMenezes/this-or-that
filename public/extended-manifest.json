@@ -1,0 +1,5959 @@
+{
+  "version": "2.0.0",
+  "generated": "2026-02-01T13:41:37.247Z",
+  "standard": [
+    {
+      "id": "bath",
+      "label": "Bath",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bath.png",
+      "priority": 1
+    },
+    {
+      "id": "computer-game",
+      "label": "Computer Game",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/play computer games.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "dance",
+      "label": "Dance",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/dance.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "draw",
+      "label": "Draw",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to draw_2.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "eat",
+      "label": "Eat",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to eat_1.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/music.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "outside",
+      "label": "Outside",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/outside.png",
+      "priority": 1
+    },
+    {
+      "id": "play",
+      "label": "Play",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to play volleyball.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "playground",
+      "label": "Playground",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/park.png",
+      "priority": 1
+    },
+    {
+      "id": "read",
+      "label": "Read",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to read_1.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "sleep",
+      "label": "Sleep",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to sleep_2.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "swim",
+      "label": "Swim",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to swim_1.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "tablet",
+      "label": "Tablet",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/tablet.png",
+      "priority": 1
+    },
+    {
+      "id": "video-games",
+      "label": "Video Games",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/video game.png",
+      "priority": 1
+    },
+    {
+      "id": "walk",
+      "label": "Walk",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/walk.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "watch-tv",
+      "label": "Watch Tv",
+      "category": "Activities",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/watch TV.png",
+      "priority": 1
+    },
+    {
+      "id": "apple-juice",
+      "label": "Apple Juice",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/apple juice.png",
+      "priority": 1
+    },
+    {
+      "id": "hot-chocolate",
+      "label": "Hot Chocolate",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hot chocolate.png",
+      "priority": 1
+    },
+    {
+      "id": "lemonade",
+      "label": "Lemonade",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/lemonade.png",
+      "priority": 1
+    },
+    {
+      "id": "milk",
+      "label": "Milk",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/milk.png",
+      "priority": 1
+    },
+    {
+      "id": "milkshake",
+      "label": "Milkshake",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/milkshake.png",
+      "priority": 1
+    },
+    {
+      "id": "orange-juice",
+      "label": "Orange Juice",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/orange juice.png",
+      "priority": 1
+    },
+    {
+      "id": "water",
+      "label": "Water",
+      "category": "Drinks",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/glass of water.png",
+      "priority": 1
+    },
+    {
+      "id": "angry",
+      "label": "Angry",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/angry.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "confused",
+      "label": "Confused",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/confused.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "excited",
+      "label": "Excited",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/happy_3.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "happy",
+      "label": "Happy",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/happy.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "hungry",
+      "label": "Hungry",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hungry.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "sad",
+      "label": "Sad",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sad.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "scared",
+      "label": "Scared",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/scared.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "sick",
+      "label": "Sick",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/become ill_2.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "thirsty",
+      "label": "Thirsty",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/thirsty.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "tired",
+      "label": "Tired",
+      "category": "Feelings",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/tired.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "apple",
+      "label": "Apple",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/apple 2.png",
+      "priority": 1
+    },
+    {
+      "id": "banana",
+      "label": "Banana",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/banana_1.png",
+      "priority": 1
+    },
+    {
+      "id": "broccoli",
+      "label": "Broccoli",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/broccoli.png",
+      "priority": 1
+    },
+    {
+      "id": "cake",
+      "label": "Cake",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/cake.png",
+      "priority": 1
+    },
+    {
+      "id": "carrot",
+      "label": "Carrot",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/carrot.png",
+      "priority": 1
+    },
+    {
+      "id": "cereal",
+      "label": "Cereal",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/cereals.png",
+      "priority": 1
+    },
+    {
+      "id": "cheese",
+      "label": "Cheese",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/cheese.png",
+      "priority": 1
+    },
+    {
+      "id": "chicken-nuggets",
+      "label": "Chicken Nuggets",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/croquette.png",
+      "priority": 1
+    },
+    {
+      "id": "chips",
+      "label": "Chips",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bag of chips.png",
+      "priority": 1
+    },
+    {
+      "id": "chocolate",
+      "label": "Chocolate",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/chocolate.png",
+      "priority": 1
+    },
+    {
+      "id": "cookie",
+      "label": "Cookie",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/biscuit.png",
+      "priority": 1
+    },
+    {
+      "id": "egg",
+      "label": "Egg",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/egg.png",
+      "priority": 1
+    },
+    {
+      "id": "fish-sticks",
+      "label": "Fish Sticks",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/fried fish in batter_1.png",
+      "priority": 1
+    },
+    {
+      "id": "fries",
+      "label": "Fries",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/fried potatoes (crisps)_1.png",
+      "priority": 1
+    },
+    {
+      "id": "grapes",
+      "label": "Grapes",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/grapes.png",
+      "priority": 1
+    },
+    {
+      "id": "hamburger",
+      "label": "Hamburger",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hamburger.png",
+      "priority": 1
+    },
+    {
+      "id": "hot-dog",
+      "label": "Hot Dog",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/hot dog.png",
+      "priority": 1
+    },
+    {
+      "id": "ice-cream",
+      "label": "Ice Cream",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/ice-cream.png",
+      "priority": 1
+    },
+    {
+      "id": "mac-and-cheese",
+      "label": "Mac And Cheese",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/macaroni.png",
+      "priority": 1
+    },
+    {
+      "id": "orange",
+      "label": "Orange",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/orange.png",
+      "priority": 1
+    },
+    {
+      "id": "pancakes",
+      "label": "Pancakes",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sponge cake_4.png",
+      "priority": 1
+    },
+    {
+      "id": "pizza",
+      "label": "Pizza",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/pizza.png",
+      "priority": 1
+    },
+    {
+      "id": "sandwich",
+      "label": "Sandwich",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sandwich.png",
+      "priority": 1
+    },
+    {
+      "id": "soup",
+      "label": "Soup",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/soup_4.png",
+      "priority": 1
+    },
+    {
+      "id": "spaghetti",
+      "label": "Spaghetti",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/spaghetti.png",
+      "priority": 1
+    },
+    {
+      "id": "strawberry",
+      "label": "Strawberry",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/strawberry.png",
+      "priority": 1
+    },
+    {
+      "id": "toast",
+      "label": "Toast",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/toast.png",
+      "priority": 1
+    },
+    {
+      "id": "watermelon",
+      "label": "Watermelon",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/watermelon.png",
+      "priority": 1
+    },
+    {
+      "id": "yogurt",
+      "label": "Yogurt",
+      "category": "Food",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/yogurt.png",
+      "priority": 1
+    },
+    {
+      "id": "baby",
+      "label": "Baby",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/baby.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "brother",
+      "label": "Brother",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/brother.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "dad",
+      "label": "Dad",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/dad.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "family",
+      "label": "Family",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/family.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "friend",
+      "label": "Friend",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/friend_2.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "grandma",
+      "label": "Grandma",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/grandma.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "grandpa",
+      "label": "Grandpa",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/grandpa.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "mom",
+      "label": "Mom",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/mother.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "sister",
+      "label": "Sister",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/sister.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "teacher",
+      "label": "Teacher",
+      "category": "People",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/teacher (female).png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "backyard",
+      "label": "Backyard",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/swing_1.png",
+      "priority": 1
+    },
+    {
+      "id": "bathroom",
+      "label": "Bathroom",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/toilet bowl.png",
+      "priority": 1
+    },
+    {
+      "id": "bedroom",
+      "label": "Bedroom",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bedroom_1.png",
+      "priority": 1
+    },
+    {
+      "id": "car",
+      "label": "Car",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/car.png",
+      "priority": 1
+    },
+    {
+      "id": "doctor",
+      "label": "Doctor",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/doctor_3.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "home",
+      "label": "Home",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/home.png",
+      "priority": 1
+    },
+    {
+      "id": "kitchen",
+      "label": "Kitchen",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/kitchen.png",
+      "priority": 1
+    },
+    {
+      "id": "park",
+      "label": "Park",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/park.png",
+      "priority": 1
+    },
+    {
+      "id": "restaurant",
+      "label": "Restaurant",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/restaurant.png",
+      "priority": 1
+    },
+    {
+      "id": "school",
+      "label": "School",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/high school - secondary school.png",
+      "priority": 1
+    },
+    {
+      "id": "store",
+      "label": "Store",
+      "category": "Places",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/notions store.png",
+      "priority": 1
+    },
+    {
+      "id": "all-done",
+      "label": "All Done",
+      "category": "Responses",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to finish_2.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "help",
+      "label": "Help",
+      "category": "Responses",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/help_4.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "more",
+      "label": "More",
+      "category": "Responses",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/more_1.png",
+      "priority": 1
+    },
+    {
+      "id": "no",
+      "label": "No",
+      "category": "Responses",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/no entry.png",
+      "priority": 1
+    },
+    {
+      "id": "wait",
+      "label": "Wait",
+      "category": "Responses",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/wait.png",
+      "priority": 1
+    },
+    {
+      "id": "yes",
+      "label": "Yes",
+      "category": "Responses",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/yes_2.png",
+      "priority": 1
+    },
+    {
+      "id": "ball",
+      "label": "Ball",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/basket ball.png",
+      "priority": 1
+    },
+    {
+      "id": "blocks",
+      "label": "Blocks",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/blocks.png",
+      "priority": 1
+    },
+    {
+      "id": "bubbles",
+      "label": "Bubbles",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/bubbles.png",
+      "priority": 1
+    },
+    {
+      "id": "dinosaur",
+      "label": "Dinosaur",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/dinosaur_1.png",
+      "priority": 1
+    },
+    {
+      "id": "doll",
+      "label": "Doll",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/doll.png",
+      "priority": 1
+    },
+    {
+      "id": "kite",
+      "label": "Kite",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/comet.png",
+      "priority": 1
+    },
+    {
+      "id": "lego",
+      "label": "Lego",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/blocks_2.png",
+      "priority": 1
+    },
+    {
+      "id": "playdough",
+      "label": "Playdough",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/to squash.png.varianted-skin.png",
+      "priority": 1
+    },
+    {
+      "id": "puppet",
+      "label": "Puppet",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/pupils_1.png",
+      "priority": 1
+    },
+    {
+      "id": "puzzle",
+      "label": "Puzzle",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/puzzle.png",
+      "priority": 1
+    },
+    {
+      "id": "teddy-bear",
+      "label": "Teddy Bear",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/teddy bear.png",
+      "priority": 1
+    },
+    {
+      "id": "toy-car",
+      "label": "Toy Car",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/toy car.png",
+      "priority": 1
+    },
+    {
+      "id": "train",
+      "label": "Train",
+      "category": "Toys",
+      "image": "https://d18vdu4p71yql0.cloudfront.net/libraries/arasaac/train.png",
+      "priority": 1
+    }
+  ],
+  "extended": [
+    {
+      "id": "afternoon",
+      "label": "Afternoon",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/afternoon.png",
+      "priority": 1
+    },
+    {
+      "id": "airplane",
+      "label": "Airplane",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/small airplane.png",
+      "priority": 1
+    },
+    {
+      "id": "arm",
+      "label": "Arm",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/arm.png",
+      "priority": 1
+    },
+    {
+      "id": "art",
+      "label": "Art",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rock art cave.png",
+      "priority": 1
+    },
+    {
+      "id": "ask",
+      "label": "Ask",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ask.png",
+      "priority": 1
+    },
+    {
+      "id": "bad",
+      "label": "Bad",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bad 2.png",
+      "priority": 1
+    },
+    {
+      "id": "bag",
+      "label": "Bag",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bag 1.png",
+      "priority": 1
+    },
+    {
+      "id": "balloon",
+      "label": "Balloon",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/balloon.png",
+      "priority": 1
+    },
+    {
+      "id": "beach",
+      "label": "Beach",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/beach.png",
+      "priority": 1
+    },
+    {
+      "id": "bear",
+      "label": "Bear",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/panda bear.png",
+      "priority": 1
+    },
+    {
+      "id": "bed",
+      "label": "Bed",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bed 3.png",
+      "priority": 1
+    },
+    {
+      "id": "best",
+      "label": "Best",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to ascend.png",
+      "priority": 1
+    },
+    {
+      "id": "big",
+      "label": "Big",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Big Ben.png",
+      "priority": 1
+    },
+    {
+      "id": "bike",
+      "label": "Bike",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bike.png",
+      "priority": 1
+    },
+    {
+      "id": "bird",
+      "label": "Bird",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bird 1.png",
+      "priority": 1
+    },
+    {
+      "id": "birthday",
+      "label": "Birthday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Happy Birthday 1.png",
+      "priority": 1
+    },
+    {
+      "id": "black",
+      "label": "Black",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/black.png",
+      "priority": 1
+    },
+    {
+      "id": "blanket",
+      "label": "Blanket",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/blanket.png",
+      "priority": 1
+    },
+    {
+      "id": "blue",
+      "label": "Blue",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/blue 1.png",
+      "priority": 1
+    },
+    {
+      "id": "boat",
+      "label": "Boat",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/boat.png",
+      "priority": 1
+    },
+    {
+      "id": "book",
+      "label": "Book",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/book.png",
+      "priority": 1
+    },
+    {
+      "id": "boots",
+      "label": "Boots",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/boot.png",
+      "priority": 1
+    },
+    {
+      "id": "bottle",
+      "label": "Bottle",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/baby's bottle.png",
+      "priority": 1
+    },
+    {
+      "id": "bowl",
+      "label": "Bowl",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toilet bowl.png",
+      "priority": 1
+    },
+    {
+      "id": "box",
+      "label": "Box",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/post-box 2.png",
+      "priority": 1
+    },
+    {
+      "id": "boy",
+      "label": "Boy",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/autistic boy.png",
+      "priority": 1
+    },
+    {
+      "id": "bread",
+      "label": "Bread",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bread.png",
+      "priority": 1
+    },
+    {
+      "id": "bring",
+      "label": "Bring",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to bring.png",
+      "priority": 1
+    },
+    {
+      "id": "broken",
+      "label": "Broken",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/broken.png",
+      "priority": 1
+    },
+    {
+      "id": "brown",
+      "label": "Brown",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/brown.png",
+      "priority": 1
+    },
+    {
+      "id": "brush",
+      "label": "Brush",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/brush 3.png",
+      "priority": 1
+    },
+    {
+      "id": "bus",
+      "label": "Bus",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bus.png",
+      "priority": 1
+    },
+    {
+      "id": "butterfly",
+      "label": "Butterfly",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/butterfly.png",
+      "priority": 1
+    },
+    {
+      "id": "candy",
+      "label": "Candy",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/temple 2.png",
+      "priority": 1
+    },
+    {
+      "id": "cat",
+      "label": "Cat",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cat 3.png",
+      "priority": 1
+    },
+    {
+      "id": "catch",
+      "label": "Catch",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to catch.png",
+      "priority": 1
+    },
+    {
+      "id": "chair",
+      "label": "Chair",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/chair.png",
+      "priority": 1
+    },
+    {
+      "id": "chicken",
+      "label": "Chicken",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/chicken.png",
+      "priority": 1
+    },
+    {
+      "id": "chocolate-milk",
+      "label": "Chocolate Milk",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/milk.png",
+      "priority": 1
+    },
+    {
+      "id": "classroom",
+      "label": "Classroom",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/classroom.png",
+      "priority": 1
+    },
+    {
+      "id": "clean",
+      "label": "Clean",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to clean 9.png",
+      "priority": 1
+    },
+    {
+      "id": "clock",
+      "label": "Clock",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/five o'clock.png",
+      "priority": 1
+    },
+    {
+      "id": "close",
+      "label": "Close",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/close.png",
+      "priority": 1
+    },
+    {
+      "id": "closed",
+      "label": "Closed",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/close.png",
+      "priority": 1
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to cloud.png",
+      "priority": 1
+    },
+    {
+      "id": "cloudy",
+      "label": "Cloudy",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cloudy.png",
+      "priority": 1
+    },
+    {
+      "id": "coat",
+      "label": "Coat",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/house-lab coat.png",
+      "priority": 1
+    },
+    {
+      "id": "cold",
+      "label": "Cold",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cold.png",
+      "priority": 1
+    },
+    {
+      "id": "color",
+      "label": "Color",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to colour.png",
+      "priority": 1
+    },
+    {
+      "id": "coloring-book",
+      "label": "Coloring Book",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to colour.png",
+      "priority": 1
+    },
+    {
+      "id": "come",
+      "label": "Come",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to come.png",
+      "priority": 1
+    },
+    {
+      "id": "computer",
+      "label": "Computer",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/computer.png",
+      "priority": 1
+    },
+    {
+      "id": "corn",
+      "label": "Corn",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/horn.png",
+      "priority": 1
+    },
+    {
+      "id": "couch",
+      "label": "Couch",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/diapers.png",
+      "priority": 1
+    },
+    {
+      "id": "cow",
+      "label": "Cow",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cow.png",
+      "priority": 1
+    },
+    {
+      "id": "crayon",
+      "label": "Crayon",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crayons.png",
+      "priority": 1
+    },
+    {
+      "id": "cup",
+      "label": "Cup",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cup.png",
+      "priority": 1
+    },
+    {
+      "id": "cut",
+      "label": "Cut",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cut.png",
+      "priority": 1
+    },
+    {
+      "id": "cute",
+      "label": "Cute",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cute.png",
+      "priority": 1
+    },
+    {
+      "id": "dark",
+      "label": "Dark",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dark skinned.png",
+      "priority": 1
+    },
+    {
+      "id": "day",
+      "label": "Day",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/OAP Day Care Centre.png",
+      "priority": 1
+    },
+    {
+      "id": "desk",
+      "label": "Desk",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/front desk.png",
+      "priority": 1
+    },
+    {
+      "id": "dirty",
+      "label": "Dirty",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dirtiness.png",
+      "priority": 1
+    },
+    {
+      "id": "dog",
+      "label": "Dog",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hot dog.png",
+      "priority": 1
+    },
+    {
+      "id": "door",
+      "label": "Door",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Palmas Door.png",
+      "priority": 1
+    },
+    {
+      "id": "drink",
+      "label": "Drink",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tinned drink.png",
+      "priority": 1
+    },
+    {
+      "id": "dry",
+      "label": "Dry",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to dry.png",
+      "priority": 1
+    },
+    {
+      "id": "duck",
+      "label": "Duck",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/duck.png",
+      "priority": 1
+    },
+    {
+      "id": "ear",
+      "label": "Ear",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ear.png",
+      "priority": 1
+    },
+    {
+      "id": "ears",
+      "label": "Ears",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ear.png",
+      "priority": 1
+    },
+    {
+      "id": "easy",
+      "label": "Easy",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/easy.png",
+      "priority": 1
+    },
+    {
+      "id": "eight",
+      "label": "Eight",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/eight.png",
+      "priority": 1
+    },
+    {
+      "id": "elephant",
+      "label": "Elephant",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/elephant.png",
+      "priority": 1
+    },
+    {
+      "id": "empty",
+      "label": "Empty",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to empty.png",
+      "priority": 1
+    },
+    {
+      "id": "eraser",
+      "label": "Eraser",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/eraser.png",
+      "priority": 1
+    },
+    {
+      "id": "eye",
+      "label": "Eye",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/eye shadow.png",
+      "priority": 1
+    },
+    {
+      "id": "eyes",
+      "label": "Eyes",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/eye shadow.png",
+      "priority": 1
+    },
+    {
+      "id": "face",
+      "label": "Face",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to badmouth someone to his-her face.png",
+      "priority": 1
+    },
+    {
+      "id": "farm",
+      "label": "Farm",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/farm.png",
+      "priority": 1
+    },
+    {
+      "id": "fast",
+      "label": "Fast",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fixed.png",
+      "priority": 1
+    },
+    {
+      "id": "favorite",
+      "label": "Favorite",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/favorite.png",
+      "priority": 1
+    },
+    {
+      "id": "feet",
+      "label": "Feet",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/feet.png",
+      "priority": 1
+    },
+    {
+      "id": "find",
+      "label": "Find",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/find.png",
+      "priority": 1
+    },
+    {
+      "id": "finger",
+      "label": "Finger",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to finger-paint.png",
+      "priority": 1
+    },
+    {
+      "id": "finish",
+      "label": "Finish",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/finish.png",
+      "priority": 1
+    },
+    {
+      "id": "finished",
+      "label": "Finished",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/finish.png",
+      "priority": 1
+    },
+    {
+      "id": "fire-truck",
+      "label": "Fire Truck",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rubbish truck.png",
+      "priority": 1
+    },
+    {
+      "id": "fish",
+      "label": "Fish",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fisher.png",
+      "priority": 1
+    },
+    {
+      "id": "five",
+      "label": "Five",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/five o'clock.png",
+      "priority": 1
+    },
+    {
+      "id": "floor",
+      "label": "Floor",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/floor cleaner.png",
+      "priority": 1
+    },
+    {
+      "id": "flower",
+      "label": "Flower",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/flower vase.png",
+      "priority": 1
+    },
+    {
+      "id": "fork",
+      "label": "Fork",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fork.png",
+      "priority": 1
+    },
+    {
+      "id": "four",
+      "label": "Four",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/four o'clock.png",
+      "priority": 1
+    },
+    {
+      "id": "french-fries",
+      "label": "French Fries",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cold.png",
+      "priority": 1
+    },
+    {
+      "id": "frog",
+      "label": "Frog",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/frog 2.png",
+      "priority": 1
+    },
+    {
+      "id": "front",
+      "label": "Front",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/forehead.png",
+      "priority": 1
+    },
+    {
+      "id": "full",
+      "label": "Full",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/full.png",
+      "priority": 1
+    },
+    {
+      "id": "game",
+      "label": "Game",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/video game 2.png",
+      "priority": 1
+    },
+    {
+      "id": "get",
+      "label": "Get",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/get late.png",
+      "priority": 1
+    },
+    {
+      "id": "giraffe",
+      "label": "Giraffe",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/giraffe.png",
+      "priority": 1
+    },
+    {
+      "id": "girl",
+      "label": "Girl",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/autistic girl.png",
+      "priority": 1
+    },
+    {
+      "id": "give",
+      "label": "Give",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to give.png",
+      "priority": 1
+    },
+    {
+      "id": "glass",
+      "label": "Glass",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/glass 2.png",
+      "priority": 1
+    },
+    {
+      "id": "glasses",
+      "label": "Glasses",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/glass 2.png",
+      "priority": 1
+    },
+    {
+      "id": "gloves",
+      "label": "Gloves",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/glove.png",
+      "priority": 1
+    },
+    {
+      "id": "glue",
+      "label": "Glue",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/glue.png",
+      "priority": 1
+    },
+    {
+      "id": "go",
+      "label": "Go",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to go round.png",
+      "priority": 1
+    },
+    {
+      "id": "good",
+      "label": "Good",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/good.png",
+      "priority": 1
+    },
+    {
+      "id": "good-morning",
+      "label": "Good Morning",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/good.png",
+      "priority": 1
+    },
+    {
+      "id": "good-night",
+      "label": "Good Night",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/good night.png",
+      "priority": 1
+    },
+    {
+      "id": "goodbye",
+      "label": "Goodbye",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/goodbye.png",
+      "priority": 1
+    },
+    {
+      "id": "grass",
+      "label": "Grass",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/grass.png",
+      "priority": 1
+    },
+    {
+      "id": "green",
+      "label": "Green",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/green.png",
+      "priority": 1
+    },
+    {
+      "id": "hair",
+      "label": "Hair",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hair slide.png",
+      "priority": 1
+    },
+    {
+      "id": "hand",
+      "label": "Hand",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hand.png",
+      "priority": 1
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hard.png",
+      "priority": 1
+    },
+    {
+      "id": "head",
+      "label": "Head",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/head.png",
+      "priority": 1
+    },
+    {
+      "id": "heart",
+      "label": "Heart",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/heart.png",
+      "priority": 1
+    },
+    {
+      "id": "hello",
+      "label": "Hello",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hello.png",
+      "priority": 1
+    },
+    {
+      "id": "hold",
+      "label": "Hold",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hold.png",
+      "priority": 1
+    },
+    {
+      "id": "homework",
+      "label": "Homework",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/homework.png",
+      "priority": 1
+    },
+    {
+      "id": "horse",
+      "label": "Horse",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/horse 1.png",
+      "priority": 1
+    },
+    {
+      "id": "hot",
+      "label": "Hot",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hot 1.png",
+      "priority": 1
+    },
+    {
+      "id": "house",
+      "label": "House",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/boarding house.png",
+      "priority": 1
+    },
+    {
+      "id": "hurt",
+      "label": "Hurt",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hurt 2.png",
+      "priority": 1
+    },
+    {
+      "id": "i-don-t-like",
+      "label": "I Don't Like",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to like.png",
+      "priority": 1
+    },
+    {
+      "id": "i-feel",
+      "label": "I Feel",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/feel 3.png",
+      "priority": 1
+    },
+    {
+      "id": "i-like",
+      "label": "I Like",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to like.png",
+      "priority": 1
+    },
+    {
+      "id": "i-need",
+      "label": "I Need",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/I need help.png",
+      "priority": 1
+    },
+    {
+      "id": "i-want",
+      "label": "I Want",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/I want.png",
+      "priority": 1
+    },
+    {
+      "id": "inside",
+      "label": "Inside",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/inside.png",
+      "priority": 1
+    },
+    {
+      "id": "jacket",
+      "label": "Jacket",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jacket.png",
+      "priority": 1
+    },
+    {
+      "id": "juice",
+      "label": "Juice",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/juices.png",
+      "priority": 1
+    },
+    {
+      "id": "jump",
+      "label": "Jump",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jump 2.png",
+      "priority": 1
+    },
+    {
+      "id": "key",
+      "label": "Key",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/play - key.png",
+      "priority": 1
+    },
+    {
+      "id": "kick",
+      "label": "Kick",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/kick.png",
+      "priority": 1
+    },
+    {
+      "id": "knee",
+      "label": "Knee",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/knee.png",
+      "priority": 1
+    },
+    {
+      "id": "knife",
+      "label": "Knife",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/knife grinder.png",
+      "priority": 1
+    },
+    {
+      "id": "know",
+      "label": "Know",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to know.png",
+      "priority": 1
+    },
+    {
+      "id": "lamp",
+      "label": "Lamp",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lamp.png",
+      "priority": 1
+    },
+    {
+      "id": "later",
+      "label": "Later",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/see you later.png",
+      "priority": 1
+    },
+    {
+      "id": "leaf",
+      "label": "Leaf",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bay leaf.png",
+      "priority": 1
+    },
+    {
+      "id": "left",
+      "label": "Left",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/left.png",
+      "priority": 1
+    },
+    {
+      "id": "leg",
+      "label": "Leg",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Lego blocks.png",
+      "priority": 1
+    },
+    {
+      "id": "letter",
+      "label": "Letter",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/letter-box.png",
+      "priority": 1
+    },
+    {
+      "id": "library",
+      "label": "Library",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/libraries.png",
+      "priority": 1
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/light 5.png",
+      "priority": 1
+    },
+    {
+      "id": "like",
+      "label": "Like",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to like.png",
+      "priority": 1
+    },
+    {
+      "id": "lion",
+      "label": "Lion",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lions.png",
+      "priority": 1
+    },
+    {
+      "id": "listen",
+      "label": "Listen",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to listen.png",
+      "priority": 1
+    },
+    {
+      "id": "little",
+      "label": "Little",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Little Miss Goldilocks.png",
+      "priority": 1
+    },
+    {
+      "id": "living-room",
+      "label": "Living Room",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/live.png",
+      "priority": 1
+    },
+    {
+      "id": "long",
+      "label": "Long",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/long.png",
+      "priority": 1
+    },
+    {
+      "id": "look",
+      "label": "Look",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/happy look.png",
+      "priority": 1
+    },
+    {
+      "id": "loud",
+      "label": "Loud",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/loud.png",
+      "priority": 1
+    },
+    {
+      "id": "macaroni-and-cheese",
+      "label": "Macaroni And Cheese",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/macaroni packet.png",
+      "priority": 1
+    },
+    {
+      "id": "make",
+      "label": "Make",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/make - do - write 1.png",
+      "priority": 1
+    },
+    {
+      "id": "man",
+      "label": "Man",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Pac man.png",
+      "priority": 1
+    },
+    {
+      "id": "marker",
+      "label": "Marker",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/markers.png",
+      "priority": 1
+    },
+    {
+      "id": "math",
+      "label": "Math",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/maths class.png",
+      "priority": 1
+    },
+    {
+      "id": "middle",
+      "label": "Middle",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/in the middle.png",
+      "priority": 1
+    },
+    {
+      "id": "mommy",
+      "label": "Mommy",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mommy.png",
+      "priority": 1
+    },
+    {
+      "id": "monkey",
+      "label": "Monkey",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/monkey.png",
+      "priority": 1
+    },
+    {
+      "id": "moon",
+      "label": "Moon",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/moon 3.png",
+      "priority": 1
+    },
+    {
+      "id": "morning",
+      "label": "Morning",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/morning.png",
+      "priority": 1
+    },
+    {
+      "id": "mouse",
+      "label": "Mouse",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/move the mouse.png",
+      "priority": 1
+    },
+    {
+      "id": "mouth",
+      "label": "Mouth",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mouth.png",
+      "priority": 1
+    },
+    {
+      "id": "move",
+      "label": "Move",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to move.png",
+      "priority": 1
+    },
+    {
+      "id": "my-turn",
+      "label": "My Turn",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/My turn.png",
+      "priority": 1
+    },
+    {
+      "id": "new",
+      "label": "New",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Rio de Janeiro.png",
+      "priority": 1
+    },
+    {
+      "id": "nice",
+      "label": "Nice",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/nice 1.png",
+      "priority": 1
+    },
+    {
+      "id": "night",
+      "label": "Night",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/night.png",
+      "priority": 1
+    },
+    {
+      "id": "nine",
+      "label": "Nine",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/nine.png",
+      "priority": 1
+    },
+    {
+      "id": "nose",
+      "label": "Nose",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to pick one's nose 1.png",
+      "priority": 1
+    },
+    {
+      "id": "now",
+      "label": "Now",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/now.png",
+      "priority": 1
+    },
+    {
+      "id": "number",
+      "label": "Number",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/numbers.png",
+      "priority": 1
+    },
+    {
+      "id": "okay",
+      "label": "Okay",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ok.png",
+      "priority": 1
+    },
+    {
+      "id": "old",
+      "label": "Old",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/old men 3.png",
+      "priority": 1
+    },
+    {
+      "id": "one",
+      "label": "One",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ones.png",
+      "priority": 1
+    },
+    {
+      "id": "open",
+      "label": "Open",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/open.png",
+      "priority": 1
+    },
+    {
+      "id": "paint",
+      "label": "Paint",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to finger-paint.png",
+      "priority": 1
+    },
+    {
+      "id": "pants",
+      "label": "Pants",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/panthers.png",
+      "priority": 1
+    },
+    {
+      "id": "paper",
+      "label": "Paper",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/paper.png",
+      "priority": 1
+    },
+    {
+      "id": "pasta",
+      "label": "Pasta",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toothpaste.png",
+      "priority": 1
+    },
+    {
+      "id": "peanut-butter",
+      "label": "Peanut Butter",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/peanut.png",
+      "priority": 1
+    },
+    {
+      "id": "pen",
+      "label": "Pen",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pen drive.png",
+      "priority": 1
+    },
+    {
+      "id": "pencil",
+      "label": "Pencil",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pencil.png",
+      "priority": 1
+    },
+    {
+      "id": "penguin",
+      "label": "Penguin",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/emperor penguin.png",
+      "priority": 1
+    },
+    {
+      "id": "phone",
+      "label": "Phone",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to phone.png",
+      "priority": 1
+    },
+    {
+      "id": "picture",
+      "label": "Picture",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/painting.png",
+      "priority": 1
+    },
+    {
+      "id": "pig",
+      "label": "Pig",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pig 2.png",
+      "priority": 1
+    },
+    {
+      "id": "pillow",
+      "label": "Pillow",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pillow.png",
+      "priority": 1
+    },
+    {
+      "id": "pink",
+      "label": "Pink",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pink.png",
+      "priority": 1
+    },
+    {
+      "id": "plant",
+      "label": "Plant",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/plant.png",
+      "priority": 1
+    },
+    {
+      "id": "plate",
+      "label": "Plate",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/plate.png",
+      "priority": 1
+    },
+    {
+      "id": "please",
+      "label": "Please",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to please.png",
+      "priority": 1
+    },
+    {
+      "id": "pool",
+      "label": "Pool",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ball pool.png",
+      "priority": 1
+    },
+    {
+      "id": "potato",
+      "label": "Potato",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/potato.png",
+      "priority": 1
+    },
+    {
+      "id": "pretty",
+      "label": "Pretty",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pretty.png",
+      "priority": 1
+    },
+    {
+      "id": "princess",
+      "label": "Princess",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/princess.png",
+      "priority": 1
+    },
+    {
+      "id": "pull",
+      "label": "Pull",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to pull down one's panties.png",
+      "priority": 1
+    },
+    {
+      "id": "purple",
+      "label": "Purple",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/purple.png",
+      "priority": 1
+    },
+    {
+      "id": "push",
+      "label": "Push",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/push.png",
+      "priority": 1
+    },
+    {
+      "id": "put",
+      "label": "Put",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tu put.png",
+      "priority": 1
+    },
+    {
+      "id": "rabbit",
+      "label": "Rabbit",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rabbit 2.png",
+      "priority": 1
+    },
+    {
+      "id": "rain",
+      "label": "Rain",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rain stick.png",
+      "priority": 1
+    },
+    {
+      "id": "rainbow",
+      "label": "Rainbow",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rainbow.png",
+      "priority": 1
+    },
+    {
+      "id": "rainy",
+      "label": "Rainy",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rainy.png",
+      "priority": 1
+    },
+    {
+      "id": "reading",
+      "label": "Reading",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to read.png",
+      "priority": 1
+    },
+    {
+      "id": "red",
+      "label": "Red",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Rudolf the Red-Nosed Reindeer.png",
+      "priority": 1
+    },
+    {
+      "id": "rice",
+      "label": "Rice",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rice.png",
+      "priority": 1
+    },
+    {
+      "id": "right",
+      "label": "Right",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/right.png",
+      "priority": 1
+    },
+    {
+      "id": "robot",
+      "label": "Robot",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/robot.png",
+      "priority": 1
+    },
+    {
+      "id": "rock",
+      "label": "Rock",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rock.png",
+      "priority": 1
+    },
+    {
+      "id": "round",
+      "label": "Round",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to go round.png",
+      "priority": 1
+    },
+    {
+      "id": "run",
+      "label": "Run",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ski run.png",
+      "priority": 1
+    },
+    {
+      "id": "safe",
+      "label": "Safe",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/safes.png",
+      "priority": 1
+    },
+    {
+      "id": "sand",
+      "label": "Sand",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sand.png",
+      "priority": 1
+    },
+    {
+      "id": "say",
+      "label": "Say",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to say.png",
+      "priority": 1
+    },
+    {
+      "id": "school-bus",
+      "label": "School Bus",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bus.png",
+      "priority": 1
+    },
+    {
+      "id": "scissors",
+      "label": "Scissors",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/scissors.png",
+      "priority": 1
+    },
+    {
+      "id": "scooter",
+      "label": "Scooter",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/scooter.png",
+      "priority": 1
+    },
+    {
+      "id": "see",
+      "label": "See",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lake.png",
+      "priority": 1
+    },
+    {
+      "id": "seven",
+      "label": "Seven",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/seven.png",
+      "priority": 1
+    },
+    {
+      "id": "shirt",
+      "label": "Shirt",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/strap T-shirt.png",
+      "priority": 1
+    },
+    {
+      "id": "shoes",
+      "label": "Shoes",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/football shoe.png",
+      "priority": 1
+    },
+    {
+      "id": "short",
+      "label": "Short",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to take down the shorts.png",
+      "priority": 1
+    },
+    {
+      "id": "shorts",
+      "label": "Shorts",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to take down the shorts.png",
+      "priority": 1
+    },
+    {
+      "id": "show",
+      "label": "Show",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/quiz show.png",
+      "priority": 1
+    },
+    {
+      "id": "shower",
+      "label": "Shower",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/adapted shower.png",
+      "priority": 1
+    },
+    {
+      "id": "sink",
+      "label": "Sink",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to sink.png",
+      "priority": 1
+    },
+    {
+      "id": "sit",
+      "label": "Sit",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/camping site.png",
+      "priority": 1
+    },
+    {
+      "id": "six",
+      "label": "Six",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/six 2.png",
+      "priority": 1
+    },
+    {
+      "id": "sky",
+      "label": "Sky",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sky.png",
+      "priority": 1
+    },
+    {
+      "id": "slow",
+      "label": "Slow",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/slow.png",
+      "priority": 1
+    },
+    {
+      "id": "small",
+      "label": "Small",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/small.png",
+      "priority": 1
+    },
+    {
+      "id": "snack",
+      "label": "Snack",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/snack bars.png",
+      "priority": 1
+    },
+    {
+      "id": "snow",
+      "label": "Snow",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/snow 1.png",
+      "priority": 1
+    },
+    {
+      "id": "soap",
+      "label": "Soap",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to soap.png",
+      "priority": 1
+    },
+    {
+      "id": "socks",
+      "label": "Socks",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Santa's Sock.png",
+      "priority": 1
+    },
+    {
+      "id": "soft",
+      "label": "Soft",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/soft 1.png",
+      "priority": 1
+    },
+    {
+      "id": "sorry",
+      "label": "Sorry",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sorry.png",
+      "priority": 1
+    },
+    {
+      "id": "special",
+      "label": "Special",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/special fried rice.png",
+      "priority": 1
+    },
+    {
+      "id": "spoon",
+      "label": "Spoon",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/spoon 1.png",
+      "priority": 1
+    },
+    {
+      "id": "square",
+      "label": "Square",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/square.png",
+      "priority": 1
+    },
+    {
+      "id": "stand",
+      "label": "Stand",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fair stands.png",
+      "priority": 1
+    },
+    {
+      "id": "star",
+      "label": "Star",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/star.png",
+      "priority": 1
+    },
+    {
+      "id": "start",
+      "label": "Start",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/start.png",
+      "priority": 1
+    },
+    {
+      "id": "sticker",
+      "label": "Sticker",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stickers.png",
+      "priority": 1
+    },
+    {
+      "id": "stop",
+      "label": "Stop",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stop 1.png",
+      "priority": 1
+    },
+    {
+      "id": "story",
+      "label": "Story",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/and that is the end of the story.png",
+      "priority": 1
+    },
+    {
+      "id": "stuffed-animal",
+      "label": "Stuffed Animal",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cartoon.png",
+      "priority": 1
+    },
+    {
+      "id": "sun",
+      "label": "Sun",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sun.png",
+      "priority": 1
+    },
+    {
+      "id": "sunny",
+      "label": "Sunny",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/is it sunny.png",
+      "priority": 1
+    },
+    {
+      "id": "sweet",
+      "label": "Sweet",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sweet 4.png",
+      "priority": 1
+    },
+    {
+      "id": "table",
+      "label": "Table",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/take from the table.png",
+      "priority": 1
+    },
+    {
+      "id": "take",
+      "label": "Take",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/take away 2.png",
+      "priority": 1
+    },
+    {
+      "id": "talk",
+      "label": "Talk",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/talc.png",
+      "priority": 1
+    },
+    {
+      "id": "tall",
+      "label": "Tall",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tall 1.png",
+      "priority": 1
+    },
+    {
+      "id": "teeth",
+      "label": "Teeth",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/teeth.png",
+      "priority": 1
+    },
+    {
+      "id": "television",
+      "label": "Television",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/television news.png",
+      "priority": 1
+    },
+    {
+      "id": "tell",
+      "label": "Tell",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tell.png",
+      "priority": 1
+    },
+    {
+      "id": "ten",
+      "label": "Ten",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tapeworms.png",
+      "priority": 1
+    },
+    {
+      "id": "thank-you",
+      "label": "Thank You",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/thanks.png",
+      "priority": 1
+    },
+    {
+      "id": "thanks",
+      "label": "Thanks",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/thanks.png",
+      "priority": 1
+    },
+    {
+      "id": "think",
+      "label": "Think",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/think.png",
+      "priority": 1
+    },
+    {
+      "id": "three",
+      "label": "Three",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/The Three Kings 1.png",
+      "priority": 1
+    },
+    {
+      "id": "throw",
+      "label": "Throw",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/throw.png",
+      "priority": 1
+    },
+    {
+      "id": "tiger",
+      "label": "Tiger",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tiger.png",
+      "priority": 1
+    },
+    {
+      "id": "today",
+      "label": "Today",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/today.png",
+      "priority": 1
+    },
+    {
+      "id": "toe",
+      "label": "Toe",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toe.png",
+      "priority": 1
+    },
+    {
+      "id": "toilet",
+      "label": "Toilet",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toilets.png",
+      "priority": 1
+    },
+    {
+      "id": "tomato",
+      "label": "Tomato",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tomato.png",
+      "priority": 1
+    },
+    {
+      "id": "tomorrow",
+      "label": "Tomorrow",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tomorrow.png",
+      "priority": 1
+    },
+    {
+      "id": "toothbrush",
+      "label": "Toothbrush",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toothbrush.png",
+      "priority": 1
+    },
+    {
+      "id": "toothpaste",
+      "label": "Toothpaste",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toothpaste.png",
+      "priority": 1
+    },
+    {
+      "id": "top",
+      "label": "Top",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bottle top.png",
+      "priority": 1
+    },
+    {
+      "id": "towel",
+      "label": "Towel",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/towel.png",
+      "priority": 1
+    },
+    {
+      "id": "toy",
+      "label": "Toy",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/toy library.png",
+      "priority": 1
+    },
+    {
+      "id": "tree",
+      "label": "Tree",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lemon tree.png",
+      "priority": 1
+    },
+    {
+      "id": "truck",
+      "label": "Truck",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rubbish truck.png",
+      "priority": 1
+    },
+    {
+      "id": "try",
+      "label": "Try",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/three.png",
+      "priority": 1
+    },
+    {
+      "id": "tummy",
+      "label": "Tummy",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hands to your tummy.png",
+      "priority": 1
+    },
+    {
+      "id": "turn",
+      "label": "Turn",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/My turn.png",
+      "priority": 1
+    },
+    {
+      "id": "turtle",
+      "label": "Turtle",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/turtles.png",
+      "priority": 1
+    },
+    {
+      "id": "tv",
+      "label": "TV",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/watch TV 4.png",
+      "priority": 1
+    },
+    {
+      "id": "two",
+      "label": "Two",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/two.png",
+      "priority": 1
+    },
+    {
+      "id": "umbrella",
+      "label": "Umbrella",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/umbrella.png",
+      "priority": 1
+    },
+    {
+      "id": "underwear",
+      "label": "Underwear",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/underwear.png",
+      "priority": 1
+    },
+    {
+      "id": "unicorn",
+      "label": "Unicorn",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/unicorn.png",
+      "priority": 1
+    },
+    {
+      "id": "video-game",
+      "label": "Video Game",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/video.png",
+      "priority": 1
+    },
+    {
+      "id": "want",
+      "label": "Want",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to want.png",
+      "priority": 1
+    },
+    {
+      "id": "warm",
+      "label": "Warm",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/warm.png",
+      "priority": 1
+    },
+    {
+      "id": "wash",
+      "label": "Wash",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to wash.png",
+      "priority": 1
+    },
+    {
+      "id": "weather",
+      "label": "Weather",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/how is the weather.png",
+      "priority": 1
+    },
+    {
+      "id": "week",
+      "label": "Week",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Holy Week 2.png",
+      "priority": 1
+    },
+    {
+      "id": "wet",
+      "label": "Wet",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wet 2.png",
+      "priority": 1
+    },
+    {
+      "id": "white",
+      "label": "White",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/white 1.png",
+      "priority": 1
+    },
+    {
+      "id": "wind",
+      "label": "Wind",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wind.png",
+      "priority": 1
+    },
+    {
+      "id": "window",
+      "label": "Window",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tilt and turn windows.png",
+      "priority": 1
+    },
+    {
+      "id": "windy",
+      "label": "Windy",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/is it windy.png",
+      "priority": 1
+    },
+    {
+      "id": "woman",
+      "label": "Woman",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/woman.png",
+      "priority": 1
+    },
+    {
+      "id": "word",
+      "label": "Word",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/word.png",
+      "priority": 1
+    },
+    {
+      "id": "write",
+      "label": "Write",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/make - do - write.png",
+      "priority": 1
+    },
+    {
+      "id": "writing",
+      "label": "Writing",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/make - do - write.png",
+      "priority": 1
+    },
+    {
+      "id": "wrong",
+      "label": "Wrong",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/right or wrong.png",
+      "priority": 1
+    },
+    {
+      "id": "yellow",
+      "label": "Yellow",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/yellow.png",
+      "priority": 1
+    },
+    {
+      "id": "yesterday",
+      "label": "Yesterday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/yesterday.png",
+      "priority": 1
+    },
+    {
+      "id": "your-turn",
+      "label": "Your Turn",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/My turn.png",
+      "priority": 1
+    },
+    {
+      "id": "zero",
+      "label": "Zero",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/zero.png",
+      "priority": 1
+    },
+    {
+      "id": "across",
+      "label": "Across",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to travel across.png",
+      "priority": 2
+    },
+    {
+      "id": "action-figure",
+      "label": "Action Figure",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/figure.png",
+      "priority": 2
+    },
+    {
+      "id": "airport",
+      "label": "Airport",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/airport.png",
+      "priority": 2
+    },
+    {
+      "id": "alligator",
+      "label": "Alligator",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/alligator.png",
+      "priority": 2
+    },
+    {
+      "id": "alphabet",
+      "label": "Alphabet",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/alphabet.png",
+      "priority": 2
+    },
+    {
+      "id": "always",
+      "label": "Always",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/always.png",
+      "priority": 2
+    },
+    {
+      "id": "ambulance",
+      "label": "Ambulance",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ambulance.png",
+      "priority": 2
+    },
+    {
+      "id": "ankle",
+      "label": "Ankle",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ankle.png",
+      "priority": 2
+    },
+    {
+      "id": "answer",
+      "label": "Answer",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/answer.png",
+      "priority": 2
+    },
+    {
+      "id": "ant",
+      "label": "Ant",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ant.png",
+      "priority": 2
+    },
+    {
+      "id": "aquarium",
+      "label": "Aquarium",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/aquarium.png",
+      "priority": 2
+    },
+    {
+      "id": "around",
+      "label": "Around",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/around.png",
+      "priority": 2
+    },
+    {
+      "id": "aunt",
+      "label": "Aunt",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/aunt.png",
+      "priority": 2
+    },
+    {
+      "id": "away",
+      "label": "Away",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/take away 2.png",
+      "priority": 2
+    },
+    {
+      "id": "back",
+      "label": "Back",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/back.png",
+      "priority": 2
+    },
+    {
+      "id": "bacon",
+      "label": "Bacon",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bacon.png",
+      "priority": 2
+    },
+    {
+      "id": "bake",
+      "label": "Bake",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to bake.png",
+      "priority": 2
+    },
+    {
+      "id": "basket",
+      "label": "Basket",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/basket ball.png",
+      "priority": 2
+    },
+    {
+      "id": "bat",
+      "label": "Bat",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bat.png",
+      "priority": 2
+    },
+    {
+      "id": "bathing-suit",
+      "label": "Bathing Suit",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to bath 4.png",
+      "priority": 2
+    },
+    {
+      "id": "beans",
+      "label": "Beans",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bean.png",
+      "priority": 2
+    },
+    {
+      "id": "beautiful",
+      "label": "Beautiful",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/beautiful.png",
+      "priority": 2
+    },
+    {
+      "id": "begin",
+      "label": "Begin",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/begin.png",
+      "priority": 2
+    },
+    {
+      "id": "belly-button",
+      "label": "Belly Button",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/belly button.png",
+      "priority": 2
+    },
+    {
+      "id": "belt",
+      "label": "Belt",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/belt.png",
+      "priority": 2
+    },
+    {
+      "id": "better",
+      "label": "Better",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/better.png",
+      "priority": 2
+    },
+    {
+      "id": "bicycle",
+      "label": "Bicycle",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bicycles.png",
+      "priority": 2
+    },
+    {
+      "id": "bite",
+      "label": "Bite",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bite.png",
+      "priority": 2
+    },
+    {
+      "id": "blow",
+      "label": "Blow",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to blow.png",
+      "priority": 2
+    },
+    {
+      "id": "blueberry",
+      "label": "Blueberry",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/blueberry.png",
+      "priority": 2
+    },
+    {
+      "id": "board-game",
+      "label": "Board Game",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/board.png",
+      "priority": 2
+    },
+    {
+      "id": "bone",
+      "label": "Bone",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bones.png",
+      "priority": 2
+    },
+    {
+      "id": "bored",
+      "label": "Bored",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bore.png",
+      "priority": 2
+    },
+    {
+      "id": "bottom",
+      "label": "Bottom",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bottoms.png",
+      "priority": 2
+    },
+    {
+      "id": "brain",
+      "label": "Brain",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/brain.png",
+      "priority": 2
+    },
+    {
+      "id": "break",
+      "label": "Break",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/break 4.png",
+      "priority": 2
+    },
+    {
+      "id": "broom",
+      "label": "Broom",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/broom 2.png",
+      "priority": 2
+    },
+    {
+      "id": "brush-teeth",
+      "label": "Brush Teeth",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/brush teeth.png",
+      "priority": 2
+    },
+    {
+      "id": "build",
+      "label": "Build",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/builder.png",
+      "priority": 2
+    },
+    {
+      "id": "bus-driver",
+      "label": "Bus Driver",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bus.png",
+      "priority": 2
+    },
+    {
+      "id": "bus-stop",
+      "label": "Bus Stop",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bus.png",
+      "priority": 2
+    },
+    {
+      "id": "butter",
+      "label": "Butter",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/butter.png",
+      "priority": 2
+    },
+    {
+      "id": "cafeteria",
+      "label": "Cafeteria",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cafeteria.png",
+      "priority": 2
+    },
+    {
+      "id": "calendar",
+      "label": "Calendar",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/calendar.png",
+      "priority": 2
+    },
+    {
+      "id": "call",
+      "label": "Call",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/call 1.png",
+      "priority": 2
+    },
+    {
+      "id": "calm",
+      "label": "Calm",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/peaceful.png",
+      "priority": 2
+    },
+    {
+      "id": "camel",
+      "label": "Camel",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/camel.png",
+      "priority": 2
+    },
+    {
+      "id": "cap",
+      "label": "Cap",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cape.png",
+      "priority": 2
+    },
+    {
+      "id": "castle",
+      "label": "Castle",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/castle.png",
+      "priority": 2
+    },
+    {
+      "id": "caterpillar",
+      "label": "Caterpillar",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/caterpillar.png",
+      "priority": 2
+    },
+    {
+      "id": "change",
+      "label": "Change",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/change.png",
+      "priority": 2
+    },
+    {
+      "id": "cherry",
+      "label": "Cherry",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cherry.png",
+      "priority": 2
+    },
+    {
+      "id": "chew",
+      "label": "Chew",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/chewing gum.png",
+      "priority": 2
+    },
+    {
+      "id": "children",
+      "label": "Children",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/autistic children.png",
+      "priority": 2
+    },
+    {
+      "id": "choose",
+      "label": "Choose",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/choose.png",
+      "priority": 2
+    },
+    {
+      "id": "church",
+      "label": "Church",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/church.png",
+      "priority": 2
+    },
+    {
+      "id": "city",
+      "label": "City",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/city.png",
+      "priority": 2
+    },
+    {
+      "id": "clap",
+      "label": "Clap",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to clap.png",
+      "priority": 2
+    },
+    {
+      "id": "clay",
+      "label": "Clay",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/clay.png",
+      "priority": 2
+    },
+    {
+      "id": "climb",
+      "label": "Climb",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to climb.png",
+      "priority": 2
+    },
+    {
+      "id": "cook",
+      "label": "Cook",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cook.png",
+      "priority": 2
+    },
+    {
+      "id": "cool",
+      "label": "Cool",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cool!.png",
+      "priority": 2
+    },
+    {
+      "id": "corner",
+      "label": "Corner",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/corner 1.png",
+      "priority": 2
+    },
+    {
+      "id": "costume",
+      "label": "Costume",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bathing costume.png",
+      "priority": 2
+    },
+    {
+      "id": "count",
+      "label": "Count",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to count.png",
+      "priority": 2
+    },
+    {
+      "id": "cousin",
+      "label": "Cousin",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cousin 3.png",
+      "priority": 2
+    },
+    {
+      "id": "crab",
+      "label": "Crab",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crab.png",
+      "priority": 2
+    },
+    {
+      "id": "craft",
+      "label": "Craft",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crafts.png",
+      "priority": 2
+    },
+    {
+      "id": "crocodile",
+      "label": "Crocodile",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crocodile.png",
+      "priority": 2
+    },
+    {
+      "id": "cry",
+      "label": "Cry",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to create.png",
+      "priority": 2
+    },
+    {
+      "id": "cucumber",
+      "label": "Cucumber",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cucumbers.png",
+      "priority": 2
+    },
+    {
+      "id": "dangerous",
+      "label": "Dangerous",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dangers.png",
+      "priority": 2
+    },
+    {
+      "id": "deer",
+      "label": "Deer",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/deer.png",
+      "priority": 2
+    },
+    {
+      "id": "delicious",
+      "label": "Delicious",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/drillers.png",
+      "priority": 2
+    },
+    {
+      "id": "dentist",
+      "label": "Dentist",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dentist.png",
+      "priority": 2
+    },
+    {
+      "id": "diaper",
+      "label": "Diaper",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/diapers.png",
+      "priority": 2
+    },
+    {
+      "id": "different",
+      "label": "Different",
+      "category": "Responses",
+      "image": "https://storage.googleapis.com/symbols/arasaac/different.png",
+      "priority": 2
+    },
+    {
+      "id": "dining-room",
+      "label": "Dining Room",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dining room 1.png",
+      "priority": 2
+    },
+    {
+      "id": "doctor-office",
+      "label": "Doctor Office",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/office.png",
+      "priority": 2
+    },
+    {
+      "id": "dolphin",
+      "label": "Dolphin",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dolphin.png",
+      "priority": 2
+    },
+    {
+      "id": "donut",
+      "label": "Donut",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/donut.png",
+      "priority": 2
+    },
+    {
+      "id": "dragon",
+      "label": "Dragon",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dragon.png",
+      "priority": 2
+    },
+    {
+      "id": "drawing",
+      "label": "Drawing",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to draw.png",
+      "priority": 2
+    },
+    {
+      "id": "dress",
+      "label": "Dress",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dress 11.png",
+      "priority": 2
+    },
+    {
+      "id": "drive",
+      "label": "Drive",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pen drive.png",
+      "priority": 2
+    },
+    {
+      "id": "eagle",
+      "label": "Eagle",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/eagle.png",
+      "priority": 2
+    },
+    {
+      "id": "elbow",
+      "label": "Elbow",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/elbow patch.png",
+      "priority": 2
+    },
+    {
+      "id": "evening",
+      "label": "Evening",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/even.png",
+      "priority": 2
+    },
+    {
+      "id": "fan",
+      "label": "Fan",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fan.png",
+      "priority": 2
+    },
+    {
+      "id": "far",
+      "label": "Far",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lighthouse.png",
+      "priority": 2
+    },
+    {
+      "id": "farmer",
+      "label": "Farmer",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/farmer 3.png",
+      "priority": 2
+    },
+    {
+      "id": "fat",
+      "label": "Fat",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/barrels.png",
+      "priority": 2
+    },
+    {
+      "id": "father",
+      "label": "Father",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Father Christmas 2.png",
+      "priority": 2
+    },
+    {
+      "id": "feel",
+      "label": "Feel",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/feel 2.png",
+      "priority": 2
+    },
+    {
+      "id": "fine",
+      "label": "Fine",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/i'm fine!.png",
+      "priority": 2
+    },
+    {
+      "id": "fire-station",
+      "label": "Fire Station",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/station.png",
+      "priority": 2
+    },
+    {
+      "id": "firefighter",
+      "label": "Firefighter",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/firefighter.png",
+      "priority": 2
+    },
+    {
+      "id": "first",
+      "label": "First",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/first.png",
+      "priority": 2
+    },
+    {
+      "id": "fix",
+      "label": "Fix",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fixed.png",
+      "priority": 2
+    },
+    {
+      "id": "fixed",
+      "label": "Fixed",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fixed.png",
+      "priority": 2
+    },
+    {
+      "id": "flat",
+      "label": "Flat",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/flat-apartment.png",
+      "priority": 2
+    },
+    {
+      "id": "fly",
+      "label": "Fly",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/flies.png",
+      "priority": 2
+    },
+    {
+      "id": "folder",
+      "label": "Folder",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/empty folder.png",
+      "priority": 2
+    },
+    {
+      "id": "forest",
+      "label": "Forest",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/forest.png",
+      "priority": 2
+    },
+    {
+      "id": "forget",
+      "label": "Forget",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to forget.png",
+      "priority": 2
+    },
+    {
+      "id": "forward",
+      "label": "Forward",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/forward.png",
+      "priority": 2
+    },
+    {
+      "id": "fox",
+      "label": "Fox",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fox.png",
+      "priority": 2
+    },
+    {
+      "id": "friday",
+      "label": "Friday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Friday.png",
+      "priority": 2
+    },
+    {
+      "id": "fridge",
+      "label": "Fridge",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fridge.png",
+      "priority": 2
+    },
+    {
+      "id": "front-yard",
+      "label": "Front Yard",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/forehead.png",
+      "priority": 2
+    },
+    {
+      "id": "fruit-snacks",
+      "label": "Fruit Snacks",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/snack bars.png",
+      "priority": 2
+    },
+    {
+      "id": "funny",
+      "label": "Funny",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/it's funny!.png",
+      "priority": 2
+    },
+    {
+      "id": "garage",
+      "label": "Garage",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/garage.png",
+      "priority": 2
+    },
+    {
+      "id": "garbage",
+      "label": "Garbage",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/garbage collector 1.png",
+      "priority": 2
+    },
+    {
+      "id": "garbage-truck",
+      "label": "Garbage Truck",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rubbish truck.png",
+      "priority": 2
+    },
+    {
+      "id": "garden",
+      "label": "Garden",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/garden 1.png",
+      "priority": 2
+    },
+    {
+      "id": "goat",
+      "label": "Goat",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/goat.png",
+      "priority": 2
+    },
+    {
+      "id": "gold",
+      "label": "Gold",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/gold.png",
+      "priority": 2
+    },
+    {
+      "id": "gorilla",
+      "label": "Gorilla",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/gorilla.png",
+      "priority": 2
+    },
+    {
+      "id": "grandfather",
+      "label": "Grandfather",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/grandfather.png",
+      "priority": 2
+    },
+    {
+      "id": "grandmother",
+      "label": "Grandmother",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/grandmother.png",
+      "priority": 2
+    },
+    {
+      "id": "grape-juice",
+      "label": "Grape Juice",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/juice.png",
+      "priority": 2
+    },
+    {
+      "id": "grilled-cheese",
+      "label": "Grilled Cheese",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/grill.png",
+      "priority": 2
+    },
+    {
+      "id": "grocery-store",
+      "label": "Grocery Store",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/notions store.png",
+      "priority": 2
+    },
+    {
+      "id": "grow",
+      "label": "Grow",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to grow.png",
+      "priority": 2
+    },
+    {
+      "id": "hairbrush",
+      "label": "Hairbrush",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hairbrush.png",
+      "priority": 2
+    },
+    {
+      "id": "ham",
+      "label": "Ham",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/York ham.png",
+      "priority": 2
+    },
+    {
+      "id": "hamster",
+      "label": "Hamster",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hamster.png",
+      "priority": 2
+    },
+    {
+      "id": "hear",
+      "label": "Hear",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to hear.png",
+      "priority": 2
+    },
+    {
+      "id": "heavy",
+      "label": "Heavy",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/heavy.png",
+      "priority": 2
+    },
+    {
+      "id": "helicopter",
+      "label": "Helicopter",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/helicopter.png",
+      "priority": 2
+    },
+    {
+      "id": "hide",
+      "label": "Hide",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/raw hide.png",
+      "priority": 2
+    },
+    {
+      "id": "holiday",
+      "label": "Holiday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/holidays.png",
+      "priority": 2
+    },
+    {
+      "id": "honey",
+      "label": "Honey",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/honey.png",
+      "priority": 2
+    },
+    {
+      "id": "hospital",
+      "label": "Hospital",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hospital.png",
+      "priority": 2
+    },
+    {
+      "id": "hour",
+      "label": "Hour",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hour.png",
+      "priority": 2
+    },
+    {
+      "id": "hula-hoop",
+      "label": "Hula Hoop",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hoop.png",
+      "priority": 2
+    },
+    {
+      "id": "ice",
+      "label": "Ice",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ice.png",
+      "priority": 2
+    },
+    {
+      "id": "ice-cream-truck",
+      "label": "Ice Cream Truck",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rubbish truck.png",
+      "priority": 2
+    },
+    {
+      "id": "jeans",
+      "label": "Jeans",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jeans.png",
+      "priority": 2
+    },
+    {
+      "id": "jelly",
+      "label": "Jelly",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jellies.png",
+      "priority": 2
+    },
+    {
+      "id": "jump-rope",
+      "label": "Jump Rope",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jump 2.png",
+      "priority": 2
+    },
+    {
+      "id": "jungle",
+      "label": "Jungle",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jungle.png",
+      "priority": 2
+    },
+    {
+      "id": "kangaroo",
+      "label": "Kangaroo",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/kangaroo.png",
+      "priority": 2
+    },
+    {
+      "id": "ketchup",
+      "label": "Ketchup",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ketchup.png",
+      "priority": 2
+    },
+    {
+      "id": "kid",
+      "label": "Kid",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/kids.png",
+      "priority": 2
+    },
+    {
+      "id": "kind",
+      "label": "Kind",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cheek.png",
+      "priority": 2
+    },
+    {
+      "id": "kiss",
+      "label": "Kiss",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/kiss 4.png",
+      "priority": 2
+    },
+    {
+      "id": "koala",
+      "label": "Koala",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/koala.png",
+      "priority": 2
+    },
+    {
+      "id": "ladybug",
+      "label": "Ladybug",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ladybug.png",
+      "priority": 2
+    },
+    {
+      "id": "lake",
+      "label": "Lake",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lake.png",
+      "priority": 2
+    },
+    {
+      "id": "large",
+      "label": "Large",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wide.png",
+      "priority": 2
+    },
+    {
+      "id": "last",
+      "label": "Last",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/last.png",
+      "priority": 2
+    },
+    {
+      "id": "laugh",
+      "label": "Laugh",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/laugh.png",
+      "priority": 2
+    },
+    {
+      "id": "learn",
+      "label": "Learn",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/learn.png",
+      "priority": 2
+    },
+    {
+      "id": "lemon",
+      "label": "Lemon",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lemon tree.png",
+      "priority": 2
+    },
+    {
+      "id": "lettuce",
+      "label": "Lettuce",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lettuce.png",
+      "priority": 2
+    },
+    {
+      "id": "lightning",
+      "label": "Lightning",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lightning.png",
+      "priority": 2
+    },
+    {
+      "id": "lizard",
+      "label": "Lizard",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lizard.png",
+      "priority": 2
+    },
+    {
+      "id": "lock",
+      "label": "Lock",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/curls.png",
+      "priority": 2
+    },
+    {
+      "id": "lollipop",
+      "label": "Lollipop",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lollipop.png",
+      "priority": 2
+    },
+    {
+      "id": "loving",
+      "label": "Loving",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/love 4.png",
+      "priority": 2
+    },
+    {
+      "id": "mall",
+      "label": "Mall",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/make a template.png",
+      "priority": 2
+    },
+    {
+      "id": "mango",
+      "label": "Mango",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mangoes.png",
+      "priority": 2
+    },
+    {
+      "id": "map",
+      "label": "Map",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/map.png",
+      "priority": 2
+    },
+    {
+      "id": "mean",
+      "label": "Mean",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/means of transport.png",
+      "priority": 2
+    },
+    {
+      "id": "meat",
+      "label": "Meat",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/meat.png",
+      "priority": 2
+    },
+    {
+      "id": "melon",
+      "label": "Melon",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/melon.png",
+      "priority": 2
+    },
+    {
+      "id": "microwave",
+      "label": "Microwave",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/microwave.png",
+      "priority": 2
+    },
+    {
+      "id": "mirror",
+      "label": "Mirror",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mirror 1.png",
+      "priority": 2
+    },
+    {
+      "id": "mittens",
+      "label": "Mittens",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bath mitten.png",
+      "priority": 2
+    },
+    {
+      "id": "mix",
+      "label": "Mix",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to mix 1.png",
+      "priority": 2
+    },
+    {
+      "id": "monday",
+      "label": "Monday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Monday.png",
+      "priority": 2
+    },
+    {
+      "id": "month",
+      "label": "Month",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/month.png",
+      "priority": 2
+    },
+    {
+      "id": "mother",
+      "label": "Mother",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mother.png",
+      "priority": 2
+    },
+    {
+      "id": "motorcycle",
+      "label": "Motorcycle",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/motorcycle races.png",
+      "priority": 2
+    },
+    {
+      "id": "mountain",
+      "label": "Mountain",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mountain.png",
+      "priority": 2
+    },
+    {
+      "id": "movie-theater",
+      "label": "Movie Theater",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/theatre.png",
+      "priority": 2
+    },
+    {
+      "id": "mud",
+      "label": "Mud",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mud.png",
+      "priority": 2
+    },
+    {
+      "id": "muffin",
+      "label": "Muffin",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/muffin.png",
+      "priority": 2
+    },
+    {
+      "id": "museum",
+      "label": "Museum",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/museum.png",
+      "priority": 2
+    },
+    {
+      "id": "mushroom",
+      "label": "Mushroom",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mushroom.png",
+      "priority": 2
+    },
+    {
+      "id": "napkin",
+      "label": "Napkin",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/napkin.png",
+      "priority": 2
+    },
+    {
+      "id": "near",
+      "label": "Near",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/near.png",
+      "priority": 2
+    },
+    {
+      "id": "neck",
+      "label": "Neck",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/neck.png",
+      "priority": 2
+    },
+    {
+      "id": "nervous",
+      "label": "Nervous",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/nervous.png",
+      "priority": 2
+    },
+    {
+      "id": "never",
+      "label": "Never",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/never.png",
+      "priority": 2
+    },
+    {
+      "id": "next",
+      "label": "Next",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/next.png",
+      "priority": 2
+    },
+    {
+      "id": "next-to",
+      "label": "Next To",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/next.png",
+      "priority": 2
+    },
+    {
+      "id": "noisy",
+      "label": "Noisy",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/noisy.png",
+      "priority": 2
+    },
+    {
+      "id": "noodles",
+      "label": "Noodles",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/noodles.png",
+      "priority": 2
+    },
+    {
+      "id": "notebook",
+      "label": "Notebook",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/communication notebook.png",
+      "priority": 2
+    },
+    {
+      "id": "nurse",
+      "label": "Nurse",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/RGN (Registered General Nurse) 2.png",
+      "priority": 2
+    },
+    {
+      "id": "nuts",
+      "label": "Nuts",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/nut.png",
+      "priority": 2
+    },
+    {
+      "id": "ocean",
+      "label": "Ocean",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ocean.png",
+      "priority": 2
+    },
+    {
+      "id": "octopus",
+      "label": "Octopus",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/octopus.png",
+      "priority": 2
+    },
+    {
+      "id": "onion",
+      "label": "Onion",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/onion.png",
+      "priority": 2
+    },
+    {
+      "id": "oven",
+      "label": "Oven",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/oven.png",
+      "priority": 2
+    },
+    {
+      "id": "owl",
+      "label": "Owl",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/owl 1.png",
+      "priority": 2
+    },
+    {
+      "id": "pain",
+      "label": "Pain",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bread.png",
+      "priority": 2
+    },
+    {
+      "id": "painting",
+      "label": "Painting",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to finger-paint.png",
+      "priority": 2
+    },
+    {
+      "id": "pan",
+      "label": "Pan",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/casserole.png",
+      "priority": 2
+    },
+    {
+      "id": "panda",
+      "label": "Panda",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/panda.png",
+      "priority": 2
+    },
+    {
+      "id": "parrot",
+      "label": "Parrot",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/parrot.png",
+      "priority": 2
+    },
+    {
+      "id": "peach",
+      "label": "Peach",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/peach.png",
+      "priority": 2
+    },
+    {
+      "id": "pear",
+      "label": "Pear",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pear.png",
+      "priority": 2
+    },
+    {
+      "id": "peas",
+      "label": "Peas",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pea.png",
+      "priority": 2
+    },
+    {
+      "id": "people",
+      "label": "People",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/group of people.png",
+      "priority": 2
+    },
+    {
+      "id": "pepper",
+      "label": "Pepper",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pepper.png",
+      "priority": 2
+    },
+    {
+      "id": "person",
+      "label": "Person",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/person.png",
+      "priority": 2
+    },
+    {
+      "id": "pet",
+      "label": "Pet",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pet.png",
+      "priority": 2
+    },
+    {
+      "id": "pick",
+      "label": "Pick",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to pick.png",
+      "priority": 2
+    },
+    {
+      "id": "pie",
+      "label": "Pie",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pie.png",
+      "priority": 2
+    },
+    {
+      "id": "pineapple",
+      "label": "Pineapple",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pineapple.png",
+      "priority": 2
+    },
+    {
+      "id": "point",
+      "label": "Point",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Point of Sale Terminal.png",
+      "priority": 2
+    },
+    {
+      "id": "police-car",
+      "label": "Police Car",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/police.png",
+      "priority": 2
+    },
+    {
+      "id": "police-officer",
+      "label": "Police Officer",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/office.png",
+      "priority": 2
+    },
+    {
+      "id": "pony",
+      "label": "Pony",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pony.png",
+      "priority": 2
+    },
+    {
+      "id": "popcorn",
+      "label": "Popcorn",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/popcorn.png",
+      "priority": 2
+    },
+    {
+      "id": "pot",
+      "label": "Pot",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pot hole.png",
+      "priority": 2
+    },
+    {
+      "id": "pour",
+      "label": "Pour",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to pour 1.png",
+      "priority": 2
+    },
+    {
+      "id": "principal",
+      "label": "Principal",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/prince.png",
+      "priority": 2
+    },
+    {
+      "id": "project",
+      "label": "Project",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to project.png",
+      "priority": 2
+    },
+    {
+      "id": "proud",
+      "label": "Proud",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stream.png",
+      "priority": 2
+    },
+    {
+      "id": "quick",
+      "label": "Quick",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/quick.png",
+      "priority": 2
+    },
+    {
+      "id": "raincoat",
+      "label": "Raincoat",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/raincoat.png",
+      "priority": 2
+    },
+    {
+      "id": "real",
+      "label": "Real",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Ciudad Real.png",
+      "priority": 2
+    },
+    {
+      "id": "refrigerator",
+      "label": "Refrigerator",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/refrigerator.png",
+      "priority": 2
+    },
+    {
+      "id": "remember",
+      "label": "Remember",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to remember.png",
+      "priority": 2
+    },
+    {
+      "id": "remote",
+      "label": "Remote",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/remote controls.png",
+      "priority": 2
+    },
+    {
+      "id": "ride",
+      "label": "Ride",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to ride.png",
+      "priority": 2
+    },
+    {
+      "id": "river",
+      "label": "River",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/river.png",
+      "priority": 2
+    },
+    {
+      "id": "rocket",
+      "label": "Rocket",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rocket 1.png",
+      "priority": 2
+    },
+    {
+      "id": "rug",
+      "label": "Rug",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to roar.png",
+      "priority": 2
+    },
+    {
+      "id": "ruler",
+      "label": "Ruler",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ruler.png",
+      "priority": 2
+    },
+    {
+      "id": "salad",
+      "label": "Salad",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/salad.png",
+      "priority": 2
+    },
+    {
+      "id": "salt",
+      "label": "Salt",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jump.png",
+      "priority": 2
+    },
+    {
+      "id": "salty",
+      "label": "Salty",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/salty.png",
+      "priority": 2
+    },
+    {
+      "id": "sandals",
+      "label": "Sandals",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sandal.png",
+      "priority": 2
+    },
+    {
+      "id": "sandbox",
+      "label": "Sandbox",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sandbox.png",
+      "priority": 2
+    },
+    {
+      "id": "saturday",
+      "label": "Saturday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Saturday.png",
+      "priority": 2
+    },
+    {
+      "id": "sausage",
+      "label": "Sausage",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sausages.png",
+      "priority": 2
+    },
+    {
+      "id": "scarf",
+      "label": "Scarf",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/scarf.png",
+      "priority": 2
+    },
+    {
+      "id": "science",
+      "label": "Science",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Social Science book.png",
+      "priority": 2
+    },
+    {
+      "id": "seal",
+      "label": "Seal",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/seal.png",
+      "priority": 2
+    },
+    {
+      "id": "second",
+      "label": "Second",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/second.png",
+      "priority": 2
+    },
+    {
+      "id": "seed",
+      "label": "Seed",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/seed.png",
+      "priority": 2
+    },
+    {
+      "id": "sentence",
+      "label": "Sentence",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/divorce sentence.png",
+      "priority": 2
+    },
+    {
+      "id": "shampoo",
+      "label": "Shampoo",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/shampoo.png",
+      "priority": 2
+    },
+    {
+      "id": "share",
+      "label": "Share",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to share.png",
+      "priority": 2
+    },
+    {
+      "id": "shark",
+      "label": "Shark",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/shark.png",
+      "priority": 2
+    },
+    {
+      "id": "sharp",
+      "label": "Sharp",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sharp.png",
+      "priority": 2
+    },
+    {
+      "id": "sheep",
+      "label": "Sheep",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sheep.png",
+      "priority": 2
+    },
+    {
+      "id": "sheet",
+      "label": "Sheet",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sheet opener.png",
+      "priority": 2
+    },
+    {
+      "id": "ship",
+      "label": "Ship",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ship.png",
+      "priority": 2
+    },
+    {
+      "id": "shoulder",
+      "label": "Shoulder",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/shoulder.png",
+      "priority": 2
+    },
+    {
+      "id": "shy",
+      "label": "Shy",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/shy.png",
+      "priority": 2
+    },
+    {
+      "id": "side",
+      "label": "Side",
+      "category": "Positions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/side table.png",
+      "priority": 2
+    },
+    {
+      "id": "silver",
+      "label": "Silver",
+      "category": "Colors",
+      "image": "https://storage.googleapis.com/symbols/arasaac/silver 1.png",
+      "priority": 2
+    },
+    {
+      "id": "sing",
+      "label": "Sing",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to sing.png",
+      "priority": 2
+    },
+    {
+      "id": "skateboard",
+      "label": "Skateboard",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/skateboard.png",
+      "priority": 2
+    },
+    {
+      "id": "skin",
+      "label": "Skin",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/IHO.png",
+      "priority": 2
+    },
+    {
+      "id": "skirt",
+      "label": "Skirt",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/skirt.png",
+      "priority": 2
+    },
+    {
+      "id": "slide",
+      "label": "Slide",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/slides.png",
+      "priority": 2
+    },
+    {
+      "id": "slippers",
+      "label": "Slippers",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/slipper.png",
+      "priority": 2
+    },
+    {
+      "id": "smell",
+      "label": "Smell",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/smell.png",
+      "priority": 2
+    },
+    {
+      "id": "smile",
+      "label": "Smile",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/smile 1.png",
+      "priority": 2
+    },
+    {
+      "id": "smooth",
+      "label": "Smooth",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/smooth.png",
+      "priority": 2
+    },
+    {
+      "id": "snail",
+      "label": "Snail",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/snail.png",
+      "priority": 2
+    },
+    {
+      "id": "snake",
+      "label": "Snake",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/snake.png",
+      "priority": 2
+    },
+    {
+      "id": "sneakers",
+      "label": "Sneakers",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/espadrille 1.png",
+      "priority": 2
+    },
+    {
+      "id": "soda",
+      "label": "Soda",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/soda.png",
+      "priority": 2
+    },
+    {
+      "id": "sofa",
+      "label": "Sofa",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sofa.png",
+      "priority": 2
+    },
+    {
+      "id": "sometimes",
+      "label": "Sometimes",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sometimes.png",
+      "priority": 2
+    },
+    {
+      "id": "sour",
+      "label": "Sour",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mouse.png",
+      "priority": 2
+    },
+    {
+      "id": "spaceship",
+      "label": "Spaceship",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/spaceship 1.png",
+      "priority": 2
+    },
+    {
+      "id": "speak",
+      "label": "Speak",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to speak.png",
+      "priority": 2
+    },
+    {
+      "id": "spicy",
+      "label": "Spicy",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/spicy.png",
+      "priority": 2
+    },
+    {
+      "id": "spider",
+      "label": "Spider",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/spider.png",
+      "priority": 2
+    },
+    {
+      "id": "squirrel",
+      "label": "Squirrel",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/squirrel.png",
+      "priority": 2
+    },
+    {
+      "id": "stairs",
+      "label": "Stairs",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stairs.png",
+      "priority": 2
+    },
+    {
+      "id": "starfish",
+      "label": "Starfish",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/starfish.png",
+      "priority": 2
+    },
+    {
+      "id": "stomach",
+      "label": "Stomach",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stomach.png",
+      "priority": 2
+    },
+    {
+      "id": "stone",
+      "label": "Stone",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stone.png",
+      "priority": 2
+    },
+    {
+      "id": "storm",
+      "label": "Storm",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/storm.png",
+      "priority": 2
+    },
+    {
+      "id": "stove",
+      "label": "Stove",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stove.png",
+      "priority": 2
+    },
+    {
+      "id": "straight",
+      "label": "Straight",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/straight.png",
+      "priority": 2
+    },
+    {
+      "id": "strawberry-milk",
+      "label": "Strawberry Milk",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/milk.png",
+      "priority": 2
+    },
+    {
+      "id": "stroller",
+      "label": "Stroller",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/strollers.png",
+      "priority": 2
+    },
+    {
+      "id": "strong",
+      "label": "Strong",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/strong.png",
+      "priority": 2
+    },
+    {
+      "id": "student",
+      "label": "Student",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/student.png",
+      "priority": 2
+    },
+    {
+      "id": "sugar",
+      "label": "Sugar",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sugar.png",
+      "priority": 2
+    },
+    {
+      "id": "sunday",
+      "label": "Sunday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Sunday.png",
+      "priority": 2
+    },
+    {
+      "id": "surprised",
+      "label": "Surprised",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/surprises.png",
+      "priority": 2
+    },
+    {
+      "id": "swimming-pool",
+      "label": "Swimming Pool",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ball pool.png",
+      "priority": 2
+    },
+    {
+      "id": "swimsuit",
+      "label": "Swimsuit",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/swimsuit.png",
+      "priority": 2
+    },
+    {
+      "id": "swing",
+      "label": "Swing",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/swing.png",
+      "priority": 2
+    },
+    {
+      "id": "t-shirt",
+      "label": "T-shirt",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/t.png",
+      "priority": 2
+    },
+    {
+      "id": "taco",
+      "label": "Taco",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hockey stick.png",
+      "priority": 2
+    },
+    {
+      "id": "tape",
+      "label": "Tape",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tape.png",
+      "priority": 2
+    },
+    {
+      "id": "taste",
+      "label": "Taste",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/piano keys.png",
+      "priority": 2
+    },
+    {
+      "id": "taxi",
+      "label": "Taxi",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/taxi.png",
+      "priority": 2
+    },
+    {
+      "id": "tea",
+      "label": "Tea",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/have tea.png",
+      "priority": 2
+    },
+    {
+      "id": "tent",
+      "label": "Tent",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tent.png",
+      "priority": 2
+    },
+    {
+      "id": "test",
+      "label": "Test",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/urine test.png",
+      "priority": 2
+    },
+    {
+      "id": "thin",
+      "label": "Thin",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/thin.png",
+      "priority": 2
+    },
+    {
+      "id": "third",
+      "label": "Third",
+      "category": "Numbers",
+      "image": "https://storage.googleapis.com/symbols/arasaac/third.png",
+      "priority": 2
+    },
+    {
+      "id": "thumb",
+      "label": "Thumb",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Tom Thumb.png",
+      "priority": 2
+    },
+    {
+      "id": "thunder",
+      "label": "Thunder",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/thunder 1.png",
+      "priority": 2
+    },
+    {
+      "id": "thursday",
+      "label": "Thursday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Thursday.png",
+      "priority": 2
+    },
+    {
+      "id": "tongue",
+      "label": "Tongue",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tongue.png",
+      "priority": 2
+    },
+    {
+      "id": "tooth",
+      "label": "Tooth",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tooth brush.png",
+      "priority": 2
+    },
+    {
+      "id": "touch",
+      "label": "Touch",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/touch.png",
+      "priority": 2
+    },
+    {
+      "id": "tractor",
+      "label": "Tractor",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tractor.png",
+      "priority": 2
+    },
+    {
+      "id": "trampoline",
+      "label": "Trampoline",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/trampoline .png",
+      "priority": 2
+    },
+    {
+      "id": "tricycle",
+      "label": "Tricycle",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tricycle.png",
+      "priority": 2
+    },
+    {
+      "id": "true",
+      "label": "True",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/true.png",
+      "priority": 2
+    },
+    {
+      "id": "tuesday",
+      "label": "Tuesday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Tuesday.png",
+      "priority": 2
+    },
+    {
+      "id": "turkey",
+      "label": "Turkey",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Turkey.png",
+      "priority": 2
+    },
+    {
+      "id": "ugly",
+      "label": "Ugly",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ugly.png",
+      "priority": 2
+    },
+    {
+      "id": "van",
+      "label": "Van",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/van.png",
+      "priority": 2
+    },
+    {
+      "id": "wagon",
+      "label": "Wagon",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/covered wagon.png",
+      "priority": 2
+    },
+    {
+      "id": "wake",
+      "label": "Wake",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wake up 2.png",
+      "priority": 2
+    },
+    {
+      "id": "wall",
+      "label": "Wall",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wall.png",
+      "priority": 2
+    },
+    {
+      "id": "watch",
+      "label": "Watch",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/watch TV 4.png",
+      "priority": 2
+    },
+    {
+      "id": "wave",
+      "label": "Wave",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wave.png",
+      "priority": 2
+    },
+    {
+      "id": "wednesday",
+      "label": "Wednesday",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Wednesday.png",
+      "priority": 2
+    },
+    {
+      "id": "weekend",
+      "label": "Weekend",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/weekend.png",
+      "priority": 2
+    },
+    {
+      "id": "whale",
+      "label": "Whale",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/whale.png",
+      "priority": 2
+    },
+    {
+      "id": "wheelchair",
+      "label": "Wheelchair",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wheelchair.png",
+      "priority": 2
+    },
+    {
+      "id": "whiteboard",
+      "label": "Whiteboard",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/Interactive White Board.png",
+      "priority": 2
+    },
+    {
+      "id": "wide",
+      "label": "Wide",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wide.png",
+      "priority": 2
+    },
+    {
+      "id": "wolf",
+      "label": "Wolf",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wolf.png",
+      "priority": 2
+    },
+    {
+      "id": "work",
+      "label": "Work",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/work.png",
+      "priority": 2
+    },
+    {
+      "id": "worm",
+      "label": "Worm",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/worm.png",
+      "priority": 2
+    },
+    {
+      "id": "worried",
+      "label": "Worried",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/worried.png",
+      "priority": 2
+    },
+    {
+      "id": "worst",
+      "label": "Worst",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/sausage.png",
+      "priority": 2
+    },
+    {
+      "id": "year",
+      "label": "Year",
+      "category": "Time",
+      "image": "https://storage.googleapis.com/symbols/arasaac/New Year's Day.png",
+      "priority": 2
+    },
+    {
+      "id": "young",
+      "label": "Young",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/young.png",
+      "priority": 2
+    },
+    {
+      "id": "zebra",
+      "label": "Zebra",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/zebra.png",
+      "priority": 2
+    },
+    {
+      "id": "air-conditioner",
+      "label": "Air Conditioner",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/air-conditioning.png",
+      "priority": 3
+    },
+    {
+      "id": "attic",
+      "label": "Attic",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/attic.png",
+      "priority": 3
+    },
+    {
+      "id": "bank",
+      "label": "Bank",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bank.png",
+      "priority": 3
+    },
+    {
+      "id": "basement",
+      "label": "Basement",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/basement 1.png",
+      "priority": 3
+    },
+    {
+      "id": "beaver",
+      "label": "Beaver",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/beaver.png",
+      "priority": 3
+    },
+    {
+      "id": "beef",
+      "label": "Beef",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/beef.png",
+      "priority": 3
+    },
+    {
+      "id": "blood",
+      "label": "Blood",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/blood analysis.png",
+      "priority": 3
+    },
+    {
+      "id": "burrito",
+      "label": "Burrito",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/burritos.png",
+      "priority": 3
+    },
+    {
+      "id": "button",
+      "label": "Button",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/button.png",
+      "priority": 3
+    },
+    {
+      "id": "cabbage",
+      "label": "Cabbage",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cabbages.png",
+      "priority": 3
+    },
+    {
+      "id": "carpet",
+      "label": "Carpet",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/carpet.png",
+      "priority": 3
+    },
+    {
+      "id": "cauliflower",
+      "label": "Cauliflower",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cauliflowers.png",
+      "priority": 3
+    },
+    {
+      "id": "ceiling",
+      "label": "Ceiling",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/ceiling.png",
+      "priority": 3
+    },
+    {
+      "id": "celery",
+      "label": "Celery",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/celeries.png",
+      "priority": 3
+    },
+    {
+      "id": "cement-mixer",
+      "label": "Cement Mixer",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cement.png",
+      "priority": 3
+    },
+    {
+      "id": "cheek",
+      "label": "Cheek",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cheek.png",
+      "priority": 3
+    },
+    {
+      "id": "chef",
+      "label": "Chef",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/chef 2.png",
+      "priority": 3
+    },
+    {
+      "id": "chest",
+      "label": "Chest",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/chest 1.png",
+      "priority": 3
+    },
+    {
+      "id": "chin",
+      "label": "Chin",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/China.png",
+      "priority": 3
+    },
+    {
+      "id": "coconut",
+      "label": "Coconut",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/coconut palm.png",
+      "priority": 3
+    },
+    {
+      "id": "coffee",
+      "label": "Coffee",
+      "category": "Drinks",
+      "image": "https://storage.googleapis.com/symbols/arasaac/coffee.png",
+      "priority": 3
+    },
+    {
+      "id": "comb",
+      "label": "Comb",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/comb.png",
+      "priority": 3
+    },
+    {
+      "id": "construction-truck",
+      "label": "Construction Truck",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rubbish truck.png",
+      "priority": 3
+    },
+    {
+      "id": "country",
+      "label": "Country",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/country.png",
+      "priority": 3
+    },
+    {
+      "id": "crane",
+      "label": "Crane",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crane.png",
+      "priority": 3
+    },
+    {
+      "id": "crazy",
+      "label": "Crazy",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crazy.png",
+      "priority": 3
+    },
+    {
+      "id": "crooked",
+      "label": "Crooked",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/crook.png",
+      "priority": 3
+    },
+    {
+      "id": "curtain",
+      "label": "Curtain",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/curtain.png",
+      "priority": 3
+    },
+    {
+      "id": "dentist-office",
+      "label": "Dentist Office",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/office.png",
+      "priority": 3
+    },
+    {
+      "id": "dishwasher",
+      "label": "Dishwasher",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dishwasher.png",
+      "priority": 3
+    },
+    {
+      "id": "dragonfly",
+      "label": "Dragonfly",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dragonfly.png",
+      "priority": 3
+    },
+    {
+      "id": "dull",
+      "label": "Dull",
+      "category": "Descriptive",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dull.png",
+      "priority": 3
+    },
+    {
+      "id": "dump-truck",
+      "label": "Dump Truck",
+      "category": "Transportation",
+      "image": "https://storage.googleapis.com/symbols/arasaac/dump.png",
+      "priority": 3
+    },
+    {
+      "id": "embarrassed",
+      "label": "Embarrassed",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to embarrass.png",
+      "priority": 3
+    },
+    {
+      "id": "fog",
+      "label": "Fog",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fog 1.png",
+      "priority": 3
+    },
+    {
+      "id": "fold",
+      "label": "Fold",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/fold.png",
+      "priority": 3
+    },
+    {
+      "id": "forehead",
+      "label": "Forehead",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/forehead.png",
+      "priority": 3
+    },
+    {
+      "id": "fort",
+      "label": "Fort",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/strong.png",
+      "priority": 3
+    },
+    {
+      "id": "gas-station",
+      "label": "Gas Station",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/gas.png",
+      "priority": 3
+    },
+    {
+      "id": "globe",
+      "label": "Globe",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/globe.png",
+      "priority": 3
+    },
+    {
+      "id": "goose",
+      "label": "Goose",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/goose.png",
+      "priority": 3
+    },
+    {
+      "id": "granola-bar",
+      "label": "Granola Bar",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/bar.png",
+      "priority": 3
+    },
+    {
+      "id": "grasshopper",
+      "label": "Grasshopper",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/grasshopper 2.png",
+      "priority": 3
+    },
+    {
+      "id": "guinea-pig",
+      "label": "Guinea Pig",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pig 2.png",
+      "priority": 3
+    },
+    {
+      "id": "gummy-bears",
+      "label": "Gummy Bears",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/panda bear.png",
+      "priority": 3
+    },
+    {
+      "id": "heater",
+      "label": "Heater",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/electric heater.png",
+      "priority": 3
+    },
+    {
+      "id": "heel",
+      "label": "Heel",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/heel.png",
+      "priority": 3
+    },
+    {
+      "id": "hip",
+      "label": "Hip",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hip.png",
+      "priority": 3
+    },
+    {
+      "id": "imagine",
+      "label": "Imagine",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/service.png",
+      "priority": 3
+    },
+    {
+      "id": "jam",
+      "label": "Jam",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jam.png",
+      "priority": 3
+    },
+    {
+      "id": "jellyfish",
+      "label": "Jellyfish",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/jellyfish.png",
+      "priority": 3
+    },
+    {
+      "id": "kiwi",
+      "label": "Kiwi",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/kiwi.png",
+      "priority": 3
+    },
+    {
+      "id": "leopard",
+      "label": "Leopard",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/leopard.png",
+      "priority": 3
+    },
+    {
+      "id": "librarian",
+      "label": "Librarian",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/librarian.png",
+      "priority": 3
+    },
+    {
+      "id": "lime",
+      "label": "Lime",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lime.png",
+      "priority": 3
+    },
+    {
+      "id": "lobster",
+      "label": "Lobster",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lobster.png",
+      "priority": 3
+    },
+    {
+      "id": "locker",
+      "label": "Locker",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/lockers.png",
+      "priority": 3
+    },
+    {
+      "id": "mail-carrier",
+      "label": "Mail Carrier",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mail.png",
+      "priority": 3
+    },
+    {
+      "id": "mayonnaise",
+      "label": "Mayonnaise",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mayonnaise.png",
+      "priority": 3
+    },
+    {
+      "id": "measure",
+      "label": "Measure",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/measurements.png",
+      "priority": 3
+    },
+    {
+      "id": "moose",
+      "label": "Moose",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/moose.png",
+      "priority": 3
+    },
+    {
+      "id": "mop",
+      "label": "Mop",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mop.png",
+      "priority": 3
+    },
+    {
+      "id": "muscle",
+      "label": "Muscle",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/muscle.png",
+      "priority": 3
+    },
+    {
+      "id": "mustard",
+      "label": "Mustard",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/mustard.png",
+      "priority": 3
+    },
+    {
+      "id": "nail",
+      "label": "Nail",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/nail file.png",
+      "priority": 3
+    },
+    {
+      "id": "otter",
+      "label": "Otter",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/otter.png",
+      "priority": 3
+    },
+    {
+      "id": "panther",
+      "label": "Panther",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/panther.png",
+      "priority": 3
+    },
+    {
+      "id": "peaceful",
+      "label": "Peaceful",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/peaceful.png",
+      "priority": 3
+    },
+    {
+      "id": "peacock",
+      "label": "Peacock",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/peacock.png",
+      "priority": 3
+    },
+    {
+      "id": "police-station",
+      "label": "Police Station",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/station.png",
+      "priority": 3
+    },
+    {
+      "id": "pork",
+      "label": "Pork",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/pork.png",
+      "priority": 3
+    },
+    {
+      "id": "post-office",
+      "label": "Post Office",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/post-it.png",
+      "priority": 3
+    },
+    {
+      "id": "pudding",
+      "label": "Pudding",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/cushion.png",
+      "priority": 3
+    },
+    {
+      "id": "rain-boots",
+      "label": "Rain Boots",
+      "category": "Clothing",
+      "image": "https://storage.googleapis.com/symbols/arasaac/boot.png",
+      "priority": 3
+    },
+    {
+      "id": "raspberry",
+      "label": "Raspberry",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/raspberry.png",
+      "priority": 3
+    },
+    {
+      "id": "rat",
+      "label": "Rat",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/rat.png",
+      "priority": 3
+    },
+    {
+      "id": "roller-skates",
+      "label": "Roller Skates",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/skate 3.png",
+      "priority": 3
+    },
+    {
+      "id": "rooster",
+      "label": "Rooster",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/to toast.png",
+      "priority": 3
+    },
+    {
+      "id": "seahorse",
+      "label": "Seahorse",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/seahorse.png",
+      "priority": 3
+    },
+    {
+      "id": "seek",
+      "label": "Seek",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/hide-and-seek.png",
+      "priority": 3
+    },
+    {
+      "id": "seesaw",
+      "label": "Seesaw",
+      "category": "Toys",
+      "image": "https://storage.googleapis.com/symbols/arasaac/seesaw.png",
+      "priority": 3
+    },
+    {
+      "id": "skunk",
+      "label": "Skunk",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/skunk.png",
+      "priority": 3
+    },
+    {
+      "id": "spinach",
+      "label": "Spinach",
+      "category": "Food",
+      "image": "https://storage.googleapis.com/symbols/arasaac/spinach.png",
+      "priority": 3
+    },
+    {
+      "id": "stapler",
+      "label": "Stapler",
+      "category": "School",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stapler.png",
+      "priority": 3
+    },
+    {
+      "id": "stir",
+      "label": "Stir",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/stir.png",
+      "priority": 3
+    },
+    {
+      "id": "supermarket",
+      "label": "Supermarket",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/supermarket.png",
+      "priority": 3
+    },
+    {
+      "id": "swallow",
+      "label": "Swallow",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/swallow.png",
+      "priority": 3
+    },
+    {
+      "id": "swan",
+      "label": "Swan",
+      "category": "Animals",
+      "image": "https://storage.googleapis.com/symbols/arasaac/swan.png",
+      "priority": 3
+    },
+    {
+      "id": "temperature",
+      "label": "Temperature",
+      "category": "Weather",
+      "image": "https://storage.googleapis.com/symbols/arasaac/temperature.png",
+      "priority": 3
+    },
+    {
+      "id": "tie",
+      "label": "Tie",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/tie.png",
+      "priority": 3
+    },
+    {
+      "id": "town",
+      "label": "Town",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/town 2.png",
+      "priority": 3
+    },
+    {
+      "id": "train-station",
+      "label": "Train Station",
+      "category": "Places",
+      "image": "https://storage.googleapis.com/symbols/arasaac/station.png",
+      "priority": 3
+    },
+    {
+      "id": "vacuum",
+      "label": "Vacuum",
+      "category": "Household",
+      "image": "https://storage.googleapis.com/symbols/arasaac/vacuum.png",
+      "priority": 3
+    },
+    {
+      "id": "veterinarian",
+      "label": "Veterinarian",
+      "category": "People",
+      "image": "https://storage.googleapis.com/symbols/arasaac/veterinarian .png",
+      "priority": 3
+    },
+    {
+      "id": "weak",
+      "label": "Weak",
+      "category": "Feelings",
+      "image": "https://storage.googleapis.com/symbols/arasaac/weak.png",
+      "priority": 3
+    },
+    {
+      "id": "whisper",
+      "label": "Whisper",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/whisper 2.png",
+      "priority": 3
+    },
+    {
+      "id": "wrist",
+      "label": "Wrist",
+      "category": "Body",
+      "image": "https://storage.googleapis.com/symbols/arasaac/wrist.png",
+      "priority": 3
+    },
+    {
+      "id": "zip",
+      "label": "Zip",
+      "category": "Actions",
+      "image": "https://storage.googleapis.com/symbols/arasaac/zipper.png",
+      "priority": 3
+    }
+  ],
+  "totalCount": 850
+}
