@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Choice Helper AAC",
+    "name": "This or that",
     "slug": "choice-helper-aac",
     "scheme": "vibecode",
     "version": "1.0.0",
@@ -9,7 +9,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.bernardomenezes.thisorthat",
+      "bundleIdentifier": "com.vibecode.thisorthat-xbizts",
       "buildNumber": "1",
       "infoPlist": {
         "NSCameraUsageDescription": "This or that uses the camera to capture photos inside the app before you publish them.",
@@ -21,7 +21,11 @@
       "edgeToEdgeEnabled": true
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "expo-asset",
+      "expo-video",
+      "expo-web-browser",
+      "react-native-edge-to-edge"
     ],
     "experiments": {
       "typedRoutes": true
