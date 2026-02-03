@@ -3,49 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Choice Helper AAC Support</title>
+    <title>Choice Helper AAC | Support & Privacy</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
-        header { border-bottom: 2px solid #007AFF; padding-bottom: 20px; margin-bottom: 30px; }
-        h1 { color: #007AFF; }
-        section { margin-bottom: 40px; }
-        .footer { font-size: 0.9em; color: #666; border-top: 1px solid #eee; pt: 20px; }
-        .contact-btn { display: inline-block; background: #007AFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+        :root { --primary: #007AFF; --teal: #2dd4bf; --coral: #fb7185; --indigo: #6366f1; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 850px; margin: 0 auto; padding: 20px; background-color: #f9fafb; }
+        header { border-bottom: 2px solid var(--primary); padding-bottom: 30px; margin-bottom: 40px; text-align: center; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        h1 { color: var(--primary); margin: 0; font-size: 2.5em; }
+        h2 { color: var(--primary); border-left: 4px solid var(--primary); padding-left: 15px; margin-top: 40px; }
+        section { background: white; padding: 30px; border-radius: 12px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .feature-tag { display: inline-block; padding: 4px 12px; border-radius: 20px; font-size: 0.85em; font-weight: bold; margin-bottom: 10px; color: white; }
+        .tag-teal { background: var(--teal); } .tag-indigo { background: var(--indigo); } .tag-gray { background: #9ca3af; }
+        .contact-btn { display: inline-block; background: var(--primary); color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: opacity 0.2s; }
+        .contact-btn:hover { opacity: 0.9; }
+        .footer { font-size: 0.9em; color: #666; margin-top: 50px; padding-top: 20px; border-top: 1px solid #ddd; }
+        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
     </style>
 </head>
 <body>
 
     <header>
         <h1>Choice Helper AAC</h1>
-        <p>A simple visual communication tool for personal support.</p>
+        <p style="font-size: 1.2em; color: #666;">A simple visual communication tool for making big choices.</p>
     </header>
+
+    <section id="philosophy">
+        <h2>Design Philosophy</h2>
+        <p>Built with a "pocket-sized" AAC experience in mind, Choice Helper focuses on reducing cognitive load for children:</p>
+        <ul>
+            <li><strong>Autism-Friendly:</strong> Uses a soft color palette (Teal and Coral) to prevent overstimulation.</li>
+            <li><strong>Clear Interaction:</strong> Features large visual targets and consistent haptic and audio feedback.</li>
+            <li><strong>Simple Choice Boards:</strong> Allows caregivers to quickly set up two to four options with clear labels.</li>
+        </ul>
+    </section>
+
+    <section id="library">
+        <h2>Smart Library & Caching</h2>
+        <p>The app employs a "Triple-Check" strategy to ensure you always have access to the right symbols:</p>
+        <p><span class="feature-tag tag-teal">Teal Border</span> <strong>Standard Library (102 icons):</strong> Core curated icons for food, feelings, and daily activities.</p>
+        <p><span class="feature-tag tag-indigo">Indigo Border</span> <strong>Extended Library (748 icons):</strong> Includes Dolch Sight Words (Pre-primer to 3rd Grade) and core AAC vocabulary.</p>
+        <p><span class="feature-tag tag-gray">Gray Border</span> <strong>Online Search:</strong> Real-time access to 28,000+ additional ARASAAC icons, which are auto-cached for future offline use.</p>
+    </section>
 
     <section id="support">
         <h2>Support & Contact</h2>
-        <p>If you have questions, need help with the app, or want to report a bug, please reach out via email:</p>
-        <a href="mailto:YOUR_EMAIL@HERE.COM" class="contact-btn">Email Support</a>
+        <p>If you have questions, need help with your setup, or have suggestions for the curated library, please reach out via our secure relay address:</p>
+        <a href="mailto:midweek_haste_3d@icloud.com" class="contact-btn">Email Support</a>
     </section>
 
     <section id="privacy">
         <h2>Privacy Policy</h2>
         <p><strong>Last Updated: February 2026</strong></p>
-        <p>Choice Helper AAC is a personal project designed with privacy in mind:</p>
+        <p>Choice Helper AAC is designed for personal use with zero data tracking:</p>
         <ul>
-            <li><strong>Data Collection:</strong> This app does not collect, store, or share any personal data.</li>
-            <li><strong>Third Parties:</strong> No data is transmitted to third-party services.</li>
-            <li><strong>Offline Use:</strong> The app functions entirely on your device.</li>
+            <li><strong>Local Storage:</strong> Your custom images and choice settings are stored only on your device.</li>
+            <li><strong>No Tracking:</strong> We do not collect, store, or share any personal data.</li>
+            <li><strong>Offline Capability:</strong> The app functions entirely offline, ensuring privacy and reliability.</li>
         </ul>
     </section>
 
     <footer class="footer">
-        <h3>Attribution</h3>
-        <p>The pictographic symbols used in Choice Helper AAC are the property of the Government of Aragón and have been created by Sergio Palao for <strong>ARASAAC</strong> (http://www.arasaac.org), which distributes them under a Creative Commons License BY-NC-SA.</p>
-        <ul>
-            <li><strong>Author:</strong> Sergio Palao</li>
-            <li><strong>Origin:</strong> ARASAAC</li>
-            <li><strong>License:</strong> CC (BY-NC-SA)</li>
-            <li><strong>Owner:</strong> Government of Aragon (Spain)</li>
-        </ul>
+        <p><strong>Pictogram Attribution:</strong> The pictographic symbols used are the property of the Government of Aragón and were created by Sergio Palao for <strong>ARASAAC</strong> (http://www.arasaac.org), which distributes them under a Creative Commons License BY-NC-SA.</p>
+        <p><strong>License:</strong> Application source code is under the MIT License. Copyright © 2026 Bernardo Menezes.</p>
     </footer>
 
 </body>
